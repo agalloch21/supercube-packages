@@ -12,5 +12,12 @@
   "author": {
     "name": "xiaobo",
     "email": "agalloch21@gmail.com"
-  }
+  },
+  "samples": [
+    {
+        "displayName": "Samples",
+        "description": "Samples",
+        "path": "Samples~/Assets"
+    }
+  ]
 }
