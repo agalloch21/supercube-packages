@@ -1305,7 +1305,7 @@ MonoBehaviour:
   - {fileID: 114350483966675040}
   m_ExposedName: Range
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   - {fileID: 114350483966675044}
   m_ExposedName: NoiseSpeed
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -1535,7 +1535,7 @@ MonoBehaviour:
   - {fileID: 114350483966675046}
   m_ExposedName: NoiseFrequency
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:

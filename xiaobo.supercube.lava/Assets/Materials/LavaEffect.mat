@@ -519,7 +519,7 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _UVOffset_LowerLayer: {r: 0, g: 0, b: 0, a: 0}
-    - _UVOffset_UpperLayer: {r: 0, g: 40.413647, b: 0, a: 0}
+    - _UVOffset_UpperLayer: {r: 0, g: 0.95692676, b: 0, a: 0}
     - _Vector2: {r: 1, g: 1.58, b: 0, a: 0}
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _Weight: {r: -0.51, g: 1, b: 0, a: 0}

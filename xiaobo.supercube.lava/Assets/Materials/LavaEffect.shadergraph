@@ -6509,10 +6509,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
     "m_ObjectId": "48339553b2f9499aa72f1a20e255332c",
     "m_Id": -435945887,
-    "m_DisplayName": "RoughnessTexture",
+    "m_DisplayName": "SmoothnessTexture",
     "m_SlotType": 0,
     "m_Hidden": false,
-    "m_ShaderOutputName": "_RoughnessTexture",
+    "m_ShaderOutputName": "_SmoothnessTexture",
     "m_StageCapability": 2,
     "m_BareResource": false,
     "m_Texture": {
@@ -6578,6 +6578,9 @@
             "m_Id": "48339553b2f9499aa72f1a20e255332c"
         },
         {
+            "m_Id": "d0a8056023b24eb08606ee00d8ae079b"
+        },
+        {
             "m_Id": "a398da8b4f2446eb99a1adeafe9887c1"
         },
         {
@@ -6629,7 +6632,8 @@
         "b33b99fd-c3c1-41d8-97c6-ff48a3e71389",
         "71149cd7-ecff-4b32-81dd-4a60c8536fbc",
         "8440a48f-6e19-4bd3-96be-43d5cff48275",
-        "1a041dbe-8095-4388-ab1e-7a580c26eb89"
+        "1a041dbe-8095-4388-ab1e-7a580c26eb89",
+        "1ca6e627-f0f5-442e-a002-e6dd3c20da69"
     ],
     "m_PropertyIds": [
         -1221449496,
@@ -6646,7 +6650,8 @@
         856652552,
         -435945887,
         1867677903,
-        -2011322996
+        -2011322996,
+        -323734450
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -14818,6 +14823,20 @@
     "m_Property": {
         "m_Id": "8b0b0ed06cd046d7be81cbb5ce44c6e5"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "d0a8056023b24eb08606ee00d8ae079b",
+    "m_Id": -323734450,
+    "m_DisplayName": "RevertSmoothness",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_RevertSmoothness",
+    "m_StageCapability": 2,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {
