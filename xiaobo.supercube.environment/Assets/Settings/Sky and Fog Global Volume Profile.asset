@@ -94,7 +94,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 3.1898727
+    m_Value: 1.2836063
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
   active: 1
   skyType:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   cloudType:
     m_OverrideState: 0
     m_Value: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
   m_Name: HDRISky
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   rotation:
     m_OverrideState: 0
     m_Value: 0
@@ -286,16 +286,16 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 3.17
+    m_Value: 4.06
   multiplier:
     m_OverrideState: 0
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 0.65971816
+    m_Value: 0.13229634
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.49468496, y: 0.5, z: 0.48150086}
+    m_Value: {x: 0.46819654, y: 0.34150392, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -310,7 +310,7 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 1313a87c0d5eadd4e97814a94e00e6ef, type: 3}
+    m_Value: {fileID: 8900000, guid: 0df28aef432e9624ba9b949223bb8275, type: 3}
   distortionMode:
     m_OverrideState: 0
     m_Value: 0
@@ -432,12 +432,12 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.133
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
   tint:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   dirtTexture:
     m_OverrideState: 0
@@ -469,16 +469,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   postExposure:
     m_OverrideState: 1
     m_Value: 0
   contrast:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   colorFilter:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.899371, g: 0.899371, b: 0.899371, a: 1}
   hueShift:
     m_OverrideState: 0
     m_Value: 0

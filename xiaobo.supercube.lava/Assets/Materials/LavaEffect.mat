@@ -77,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture:
-        m_Texture: {fileID: 2800000, guid: c9eb7965c13667b4d84fb7fc34192f60, type: 3}
+        m_Texture: {fileID: 2800000, guid: cba575aaf2ee141478af691c115ea868, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture2:
@@ -97,7 +97,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture:
-        m_Texture: {fileID: 2800000, guid: a6b88f8e7c20255428f056872180009a, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3e2bd1648648d247a23f71bf2c24c38, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture2:
@@ -244,6 +244,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _StandardFragment_483f8eb47b094fcab099c15973178448_AOTexture_856652552_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StandardFragment_483f8eb47b094fcab099c15973178448_RoughnessTexture_3859021409_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SubsurfaceMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -322,9 +330,9 @@ Material:
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
-    - _DebugLerp: 1
+    - _DebugLerp: 0
     - _DebugLerpValue: 1
-    - _DebugMode: 1
+    - _DebugMode: 0
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
@@ -340,7 +348,7 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _DstBlend2: 0
-    - _EmissionExposure: -1
+    - _EmissionExposure: 22.64
     - _EmissionExposure2: -1.78
     - _EmissionFactor: 32.29
     - _EmissionIndensity: -0.3
@@ -387,7 +395,7 @@ Material:
     - _MapSmooth: 0.21
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0.59
+    - _Metallic: 0.8
     - _Metallic2: 0.96
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
@@ -396,7 +404,7 @@ Material:
     - _NormalMapSpace: 0
     - _NormalOffset: 2.2
     - _NormalScale: 1
-    - _NormalStrength: 33
+    - _NormalStrength: 5
     - _NormalStrength2: 1.12
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
@@ -418,7 +426,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.41
+    - _Smoothness: 0.51
     - _Smoothness2: -0.2
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -480,7 +488,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseTiling: {r: 2.77, g: 4.13, b: 0, a: 0}
+    - _BaseTiling: {r: 5.59, g: 6.33, b: 0, a: 0}
     - _BaseTiling2: {r: 3, g: 4, b: 0, a: 0}
     - _BaseTilling: {r: 6.11, g: 2.12, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -511,7 +519,7 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _UVOffset_LowerLayer: {r: 0, g: 0, b: 0, a: 0}
-    - _UVOffset_UpperLayer: {r: 0, g: 19.811487, b: 0, a: 0}
+    - _UVOffset_UpperLayer: {r: 0, g: 4.16857, b: 0, a: 0}
     - _Vector2: {r: 1, g: 1.58, b: 0, a: 0}
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _Weight: {r: -0.51, g: 1, b: 0, a: 0}

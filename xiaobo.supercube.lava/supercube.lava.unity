@@ -388,6 +388,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7eb14f2f09109ca499733497c7e3641b, type: 2}
+    - target: {fileID: -5754084199372789682, guid: bcb062c0b92b48a4f966ab7adbc9b204, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -629719859055844128, guid: c313f0991a6bd04469ed4aadacc39c76, type: 3}
     - target: {fileID: 919132149155446097, guid: bcb062c0b92b48a4f966ab7adbc9b204, type: 3}
       propertyPath: m_Name
       value: LavaEffect
@@ -462,7 +466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c2b3b15b3b3122b45b010a46d0a0d5ea, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
