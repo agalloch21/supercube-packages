@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 3ee6d142ca5e2414cbd3f532aa38e055
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xiaojingling_rig_1__JingLin_shui_Low_V03_lambert3
+    second: {fileID: 2100000, guid: 92379ccb199a59243ab909f03328c60e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: shuijingling_ani_cyc(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:rig
+      parentName: shuijingling_ani_cyc(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Group
+      parentName: xiaojingling_rig_1_:rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:DeformationSystem
+      parentName: xiaojingling_rig_1_:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Root_M
+      parentName: xiaojingling_rig_1_:DeformationSystem
+      position: {x: -1.2509672e-18, y: 0.05122924, z: 0.00044947924}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Spine1_M
+      parentName: xiaojingling_rig_1_:Root_M
+      position: {x: -0.018361136, y: 0, z: -4.779478e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Chest_M
+      parentName: xiaojingling_rig_1_:Spine1_M
+      position: {x: -0.016265035, y: -3.4416914e-17, z: -3.714729e-18}
+      rotation: {x: -0, y: -0, z: 0.035133634, w: 0.9993827}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: xiaojingling_rig_1_:Neck_M
+      parentName: xiaojingling_rig_1_:Chest_M
+      position: {x: -0.023245163, y: 0.014774861, z: 2.3317985e-17}
+      rotation: {x: -0, y: -0, z: 0.101790324, w: -0.99480593}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: xiaojingling_rig_1_:Head_M
+      parentName: xiaojingling_rig_1_:Neck_M
+      position: {x: -0.014255413, y: -0.000008079348, z: 1.8324387e-17}
+      rotation: {x: -0, y: 0, z: -0.101790324, w: -0.99480593}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: xiaojingling_rig_1_:HeadEnd_M
+      parentName: xiaojingling_rig_1_:Head_M
+      position: {x: -0.20181781, y: -1.11022296e-17, z: 1.3709117e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Eye_R
+      parentName: xiaojingling_rig_1_:Head_M
+      position: {x: -0.09221208, y: 0.049897283, z: -0.064530306}
+      rotation: {x: 0.20700064, y: 0.15685321, z: 0.71730393, w: -0.6465469}
+      scale: {x: 0.99999976, y: 0.99999964, z: 0.99999964}
+    - name: xiaojingling_rig_1_:EyeEnd_R
+      parentName: xiaojingling_rig_1_:Eye_R
+      position: {x: -0.017225625, y: 0.0005259918, z: 0.00045246232}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Eye_L
+      parentName: xiaojingling_rig_1_:Head_M
+      position: {x: -0.09221208, y: 0.049897283, z: 0.064530306}
+      rotation: {x: 0.20700063, y: 0.15685321, z: -0.71730393, w: 0.6465469}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.99999964}
+    - name: xiaojingling_rig_1_:EyeEnd_L
+      parentName: xiaojingling_rig_1_:Eye_L
+      position: {x: -0.017225625, y: 0.0005259918, z: -0.00045246232}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:hair1_L
+      parentName: xiaojingling_rig_1_:Head_M
+      position: {x: -0.23603004, y: 0.032537375, z: 0.018510971}
+      rotation: {x: -0.27458996, y: 0.63869166, z: -0.45133722, w: 0.55943555}
+      scale: {x: 0.9999996, y: 0.99999976, z: 0.9999997}
+    - name: xiaojingling_rig_1_:hair2_L
+      parentName: xiaojingling_rig_1_:hair1_L
+      position: {x: -0.0374294, y: -1.1990408e-16, z: -8.5265126e-16}
+      rotation: {x: -0.011495314, y: 0.2549481, z: -0.043551352, w: 0.9659051}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    - name: xiaojingling_rig_1_:hair3_L
+      parentName: xiaojingling_rig_1_:hair2_L
+      position: {x: -0.02488064, y: -9.325873e-17, z: 2.1316282e-16}
+      rotation: {x: -0.07670876, y: 0.35643294, z: -0.19591284, w: 0.9103238}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: xiaojingling_rig_1_:hair4_L
+      parentName: xiaojingling_rig_1_:hair3_L
+      position: {x: -0.024879524, y: 0.000212404, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Scapula_R
+      parentName: xiaojingling_rig_1_:Chest_M
+      position: {x: -0.0097611165, y: 0.016901521, z: -0.013118714}
+      rotation: {x: 0.00006872265, y: 0.7071763, z: -0.00015336275, w: -0.7070372}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: xiaojingling_rig_1_:Shoulder_R
+      parentName: xiaojingling_rig_1_:Scapula_R
+      position: {x: -0.030984463, y: -0.0012536768, z: -0.00069957494}
+      rotation: {x: 0.0046038814, y: -0.17666069, z: 0.025627168, w: 0.98392737}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: xiaojingling_rig_1_:ShoulderPart1_R
+      parentName: xiaojingling_rig_1_:Shoulder_R
+      position: {x: -0.00824839, y: -0.00013901984, z: 0.00088005915}
+      rotation: {x: -0.000000027008351, y: 0.14291994, z: -0.021352788, w: 0.9895039}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: xiaojingling_rig_1_:Elbow_R
+      parentName: xiaojingling_rig_1_:ShoulderPart1_R
+      position: {x: -0.0082963705, y: 9.436896e-18, z: 1.9539925e-16}
+      rotation: {x: 0.00041726272, y: 0.008858901, z: -0.043710086, w: 0.9990049}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: xiaojingling_rig_1_:ElbowPart1_R
+      parentName: xiaojingling_rig_1_:Elbow_R
+      position: {x: -0.009156058, y: -0.000104327635, z: 0.000020778152}
+      rotation: {x: -0.00002681929, y: 0.0023619842, z: 0.011374711, w: 0.9999326}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000002}
+    - name: xiaojingling_rig_1_:Wrist_R
+      parentName: xiaojingling_rig_1_:ElbowPart1_R
+      position: {x: -0.009156058, y: 0.00010317778, z: -0.000025890817}
+      rotation: {x: -0.011698756, y: 0.06990617, z: -0.04252175, w: 0.9965783}
+      scale: {x: 0.9999992, y: 0.99999994, z: 1.0000001}
+    - name: xiaojingling_rig_1_:MiddleFinger1_R
+      parentName: xiaojingling_rig_1_:Wrist_R
+      position: {x: -0.0056076413, y: 0.000032541586, z: 0.00004228197}
+      rotation: {x: 0.0000000027939675, y: -0.000000059604638, z: -0.0000000018626449, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: xiaojingling_rig_1_:MiddleFinger2_R
+      parentName: xiaojingling_rig_1_:MiddleFinger1_R
+      position: {x: -0.004119628, y: 3.3378633e-13, z: -5.8113514e-14}
+      rotation: {x: -0.0000000027939677, y: 0.000000035390258, z: 0.000000022351742, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: xiaojingling_rig_1_:MiddleFinger3_R
+      parentName: xiaojingling_rig_1_:MiddleFinger2_R
+      position: {x: -0.0050125592, y: -9.992007e-18, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Scapula_L
+      parentName: xiaojingling_rig_1_:Chest_M
+      position: {x: -0.0097611165, y: 0.016901521, z: 0.013118714}
+      rotation: {x: 0.7071763, y: -0.00006873201, z: 0.70703727, w: -0.00015336275}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: xiaojingling_rig_1_:Shoulder_L
+      parentName: xiaojingling_rig_1_:Scapula_L
+      position: {x: 0.030984463, y: 0.0012536768, z: 0.00069957494}
+      rotation: {x: 0.004603852, y: -0.17666076, z: 0.025627203, w: 0.98392737}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+    - name: xiaojingling_rig_1_:ShoulderPart1_L
+      parentName: xiaojingling_rig_1_:Shoulder_L
+      position: {x: 0.008263423, y: 0.000049898837, z: -0.000736962}
+      rotation: {x: -0.000000048428767, y: 0.14289755, z: -0.021711359, w: 0.9894994}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: xiaojingling_rig_1_:Elbow_L
+      parentName: xiaojingling_rig_1_:ShoulderPart1_L
+      position: {x: 0.0082963705, y: -9.081624e-16, z: -2.4868996e-16}
+      rotation: {x: 0.0004158115, y: 0.008801384, z: -0.043788213, w: 0.99900204}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: xiaojingling_rig_1_:ElbowPart1_L
+      parentName: xiaojingling_rig_1_:Elbow_L
+      position: {x: 0.009156058, y: 0.000104286395, z: -0.000020984171}
+      rotation: {x: -0.000026845035, y: 0.0023619446, z: 0.011374745, w: 0.9999325}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: xiaojingling_rig_1_:Wrist_L
+      parentName: xiaojingling_rig_1_:ElbowPart1_L
+      position: {x: 0.009156058, y: -0.00010348732, z: 0.000024624424}
+      rotation: {x: -0.011704361, y: 0.06994598, z: -0.04250716, w: 0.996576}
+      scale: {x: 0.9999989, y: 0.99999934, z: 0.99999917}
+    - name: xiaojingling_rig_1_:MiddleFinger1_L
+      parentName: xiaojingling_rig_1_:Wrist_L
+      position: {x: 0.0056076413, y: -0.000032541586, z: -0.00004228197}
+      rotation: {x: -0.0000000027939675, y: 0.000000029802319, z: 0.000000017462296, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: xiaojingling_rig_1_:MiddleFinger2_L
+      parentName: xiaojingling_rig_1_:MiddleFinger1_L
+      position: {x: 0.004119628, y: -3.3380853e-13, z: 5.8228975e-14}
+      rotation: {x: 4.656613e-10, y: -0.000000007450581, z: -0.000000020489097, w: 1}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+    - name: xiaojingling_rig_1_:MiddleFinger3_L
+      parentName: xiaojingling_rig_1_:MiddleFinger2_L
+      position: {x: 0.0050125592, y: -9.992007e-18, z: 5.32907e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Tail0_M
+      parentName: xiaojingling_rig_1_:Root_M
+      position: {x: -0.0034437352, y: -0.06951082, z: 2.7278482e-16}
+      rotation: {x: 0.5951027, y: 0.80364966, z: -0, w: 0.000000011175871}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: xiaojingling_rig_1_:Tail1_M
+      parentName: xiaojingling_rig_1_:Tail0_M
+      position: {x: -0.029220566, y: -0.0019275703, z: 0.0010488331}
+      rotation: {x: -0, y: -0, z: -0.000000029802319, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: xiaojingling_rig_1_:Tail2_M
+      parentName: xiaojingling_rig_1_:Tail1_M
+      position: {x: -0.029299878, y: 2.6645352e-17, z: -1.2975732e-17}
+      rotation: {x: -0, y: -0, z: -0.0041178316, w: 0.9999916}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: xiaojingling_rig_1_:Tail3_M
+      parentName: xiaojingling_rig_1_:Tail2_M
+      position: {x: -0.029299604, y: 1.0658141e-16, z: -3.2196467e-17}
+      rotation: {x: -0.00000000769596, y: 0.000000059573456, z: 0.002979166, w: 0.9999956}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: xiaojingling_rig_1_:Tail4_M
+      parentName: xiaojingling_rig_1_:Tail3_M
+      position: {x: -0.029299954, y: -2.3980816e-16, z: 4.440892e-18}
+      rotation: {x: 0.000000007450581, y: -0.000000059604645, z: 0.0011387095, w: 0.9999994}
+      scale: {x: 1, y: 0.99999934, z: 0.9999998}
+    - name: xiaojingling_rig_1_:Tail5_M
+      parentName: xiaojingling_rig_1_:Tail4_M
+      position: {x: -0.029299878, y: -1.7763567e-16, z: -1.0201025e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Hip_R
+      parentName: xiaojingling_rig_1_:Root_M
+      position: {x: -0.0022347278, y: -0.0016420266, z: -0.046638817}
+      rotation: {x: -0.0639237, y: 0.9979423, z: -0.0049902797, w: 0.00013035536}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: xiaojingling_rig_1_:HipPart1_R
+      parentName: xiaojingling_rig_1_:Hip_R
+      position: {x: -0.012863681, y: -2.2204459e-17, z: 5.3290704e-17}
+      rotation: {x: -1.72804e-11, y: -6.693881e-10, z: -0.00000013411045, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: xiaojingling_rig_1_:Knee_R
+      parentName: xiaojingling_rig_1_:HipPart1_R
+      position: {x: -0.012863681, y: 8.881784e-18, z: 6.661338e-17}
+      rotation: {x: -0.000000074505806, y: -0.00000008940697, z: 0.110519364, w: 0.993874}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: xiaojingling_rig_1_:KneePart1_R
+      parentName: xiaojingling_rig_1_:Knee_R
+      position: {x: -0.009675584, y: -1.1546319e-16, z: -3.5527136e-17}
+      rotation: {x: -0, y: 0.000000059604645, z: -0.00000023841858, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: xiaojingling_rig_1_:Ankle_R
+      parentName: xiaojingling_rig_1_:KneePart1_R
+      position: {x: -0.009675584, y: -1.0658141e-16, z: -2.6645352e-17}
+      rotation: {x: -0.009166985, y: 0.00087870646, z: -0.046756383, w: 0.9988639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Toes_R
+      parentName: xiaojingling_rig_1_:Ankle_R
+      position: {x: -0.0064472244, y: 0.01595505, z: 6.016964e-14}
+      rotation: {x: 0.0029866335, y: 0.0018140399, z: -0.6048881, w: 0.79630286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:ToesEnd_R
+      parentName: xiaojingling_rig_1_:Toes_R
+      position: {x: -0.0070544994, y: 1.1546319e-16, z: -4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:Hip_L
+      parentName: xiaojingling_rig_1_:Root_M
+      position: {x: -0.0022347278, y: -0.0016420266, z: 0.046638817}
+      rotation: {x: 0.9979423, y: 0.06392373, z: -0.00013037026, w: -0.004990235}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: xiaojingling_rig_1_:HipPart1_L
+      parentName: xiaojingling_rig_1_:Hip_L
+      position: {x: 0.012863681, y: -2.2204459e-17, z: -7.9936054e-17}
+      rotation: {x: 0.000000059604645, y: 0.000000003958121, z: 0.000000029802322, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: xiaojingling_rig_1_:Knee_L
+      parentName: xiaojingling_rig_1_:HipPart1_L
+      position: {x: 0.012863681, y: -2.2204459e-17, z: -7.9936054e-17}
+      rotation: {x: 0.00000008940697, y: 0.000000014901161, z: -0.11051917, w: -0.993874}
+      scale: {x: 1, y: 0.9999999, z: 1.0000004}
+    - name: xiaojingling_rig_1_:KneePart1_L
+      parentName: xiaojingling_rig_1_:Knee_L
+      position: {x: 0.009675584, y: -2.797762e-16, z: -1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -1.3322675e-15, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: xiaojingling_rig_1_:Ankle_L
+      parentName: xiaojingling_rig_1_:KneePart1_L
+      position: {x: 0.009675584, y: -2.9976022e-16, z: 2.6645352e-17}
+      rotation: {x: 0.009166971, y: -0.0008787215, z: 0.04675655, w: -0.99886394}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: xiaojingling_rig_1_:Toes_L
+      parentName: xiaojingling_rig_1_:Ankle_L
+      position: {x: 0.0064472244, y: -0.01595505, z: -3.5484503e-13}
+      rotation: {x: 0.0029866335, y: 0.0018140399, z: -0.6048881, w: 0.79630286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:ToesEnd_L
+      parentName: xiaojingling_rig_1_:Toes_L
+      position: {x: 0.0070544994, y: -5.6288304e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:shuijingling_md
+      parentName: shuijingling_ani_cyc(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:low
+      parentName: xiaojingling_rig_1_:shuijingling_md
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: xiaojingling_rig_1_:body8
+      parentName: xiaojingling_rig_1_:low
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
