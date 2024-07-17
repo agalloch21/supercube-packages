@@ -1,5 +1,5 @@
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 using System;
 
 namespace supercube.environment
@@ -18,7 +18,7 @@ namespace supercube.environment
 
             if (mixingCamera != null)
             {
-                for (int i = 0; i < mixingCamera.ChildCameras.Length; i++)
+                for (int i = 0; i < mixingCamera.ChildCameras.Count; i++)
                 {
                     if (Input.GetKeyDown(KeyCode.Alpha1 + i))
                     {
@@ -31,7 +31,7 @@ namespace supercube.environment
 
         void EnableCamera(int index)
         {
-            for (int i = 0; i < mixingCamera.ChildCameras.Length; i++)
+            for (int i = 0; i < mixingCamera.ChildCameras.Count; i++)
             {
                 if (i == index)
                     mixingCamera.SetWeight(i, 1);

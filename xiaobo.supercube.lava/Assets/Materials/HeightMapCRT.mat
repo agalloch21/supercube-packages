@@ -38,7 +38,7 @@ Material:
     - _Power_UpperLayer: 1
     m_Colors:
     - _RemapOutRange_UpperLayer: {r: 0, g: 1, b: 0, a: 0}
-    - _UVOffset_UpperLayer: {r: 0, g: 0.95692676, b: 0, a: 0}
+    - _UVOffset_UpperLayer: {r: 0, g: 3.4363115, b: 0, a: 0}
     - _UVTiling_UpperLayer: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
