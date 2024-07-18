@@ -26,7 +26,7 @@ public class BindTransformAndVelocity : MonoBehaviour
         lastPos = targetGameObject.position;
 
         Vector3 speed = Vector3.zero;
-        vel = Vector3.SmoothDamp(lastVel, vel, ref speed, 0.4f);
+        vel = Vector3.SmoothDamp(lastVel, vel, ref speed, 0.2f);
         lastVel = vel;
 
         meshRenderer.material.SetVector("_Parent", targetGameObject.position);

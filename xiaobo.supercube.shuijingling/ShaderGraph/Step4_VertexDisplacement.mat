@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1217827387406551667
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 13
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -23,29 +7,25 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water3
-  m_Shader: {fileID: -6465566751694194690, guid: 75ea13046843c6a42be1f146141e0ac1, type: 3}
+  m_Name: Step4_VertexDisplacement
+  m_Shader: {fileID: -6465566751694194690, guid: 004d03af519b0064f96d260420974174, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
-  - _ENABLE_FOG_ON_TRANSPARENT
-  - _SURFACE_TYPE_TRANSPARENT
-  - _TESSELLATION_PHONG
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2225
   stringTagMap:
     MotionVector: User
-    RenderType: Transparent
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
-  - RayTracingPrepass
   - MOTIONVECTORS
+  - RayTracingPrepass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -64,71 +44,49 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO: 1
-    - _AbsorptionDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
-    - _AlphaDstBlend: 10
+    - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
-    - _DepthOffset: 3.38
     - _DepthOffsetEnable: 0
-    - _DisplacementStrength: 2.3
-    - _DistortionBlur: -0.02
-    - _DistortionDensity: 10
-    - _DistortionStrength: 0.04
+    - _DisplacementStrength: 0.17
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
-    - _DstBlend: 10
-    - _DstBlend2: 10
-    - _EnableBlendModePreserveSpecularLighting: 1
+    - _DstBlend: 0
+    - _DstBlend2: 0
+    - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _FresnelPower: 2.11
-    - _IndexOfRefraction: 1
+    - _Hardness: 0.88
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0
-    - _NoiseFreq: 2.36
-    - _NoiseOctaves: 2.31
-    - _NoiseScale: 1.71
-    - _NoiseSpeed: 1.31
-    - _NoiseStrength: 1.06
     - _OpaqueCullMode: 2
     - _PerPixelSorting: 0
+    - _Radius: 0.97
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _RenderQueueType: 4
+    - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 1.02
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 0
+    - _StencilRefDepth: 8
     - _StencilRefDistortionVec: 4
-    - _StencilRefGBuffer: 2
-    - _StencilRefMV: 32
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 41
     - _SupportDecals: 1
-    - _SurfaceType: 1
-    - _TessellationBackFaceCullEpsilon: -0.25
-    - _TessellationFactor: 20
-    - _TessellationFactorMaxDistance: 50
-    - _TessellationFactorMinDistance: 20
-    - _TessellationFactorTriangleSize: 100
-    - _TessellationMaxDisplacement: 0.01
-    - _TessellationMode: 1
-    - _TessellationShapeFactor: 0.75
-    - _Thickness: 1
+    - _SurfaceType: 0
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -138,19 +96,32 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
-    - _AngleRange: {r: -0.65, g: 4.03, b: 0, a: 0}
-    - _Color: {r: 0, g: 1.6410601, b: 3.0228195, a: 0}
-    - _Distortion: {r: 1, g: 1, b: 0, a: 0}
-    - _DistortionRange: {r: 0.41, g: 0.84, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MaskSmoothness: {r: 0.18, g: 1.07, b: 0, a: 0}
-    - _ParentVel: {r: 0.5902558, g: 0.26150796, b: 0.0000020585371, a: 0}
-    - _Range: {r: 0, g: 5.63, b: 0, a: 0}
+    - _HitPosition: {r: 1.41, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 0.49, b: 0, a: 0}
+    - _Vector3: {r: 1.49, g: 0.06, b: 0.06, a: 0}
+    - _Vector4: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &401746394811711809
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
