@@ -28,11 +28,11 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _DISABLE_SSR_TRANSPARENT
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
   - _TESSELLATION_PHONG
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -70,16 +70,19 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
+    - _BasicDeformFreq: 1.5
+    - _BasicDeformOctaves: 1
+    - _BasicDeformScale: 1
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
-    - _DepthOffset: 3.38
+    - _DepthOffset: 3.03
     - _DepthOffsetEnable: 0
-    - _DisplacementStrength: 2.3
+    - _DisplacementStrength: 0.1
     - _DistortionBlur: -0.02
     - _DistortionDensity: 10
-    - _DistortionStrength: 0.04
+    - _DistortionStrength: 0.97
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
@@ -88,16 +91,16 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _FresnelPower: 2.11
+    - _FresnelPower: 2.13
     - _IndexOfRefraction: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0
+    - _Metallic: 1
     - _NoiseFreq: 2.36
     - _NoiseOctaves: 2.31
     - _NoiseScale: 1.71
     - _NoiseSpeed: 1.31
-    - _NoiseStrength: 1.06
+    - _NoiseStrength: 0.23
     - _OpaqueCullMode: 2
     - _PerPixelSorting: 0
     - _RayTracing: 0
@@ -106,18 +109,18 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
-    - _Smoothness: 1.02
+    - _Smoothness: 5.8
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 0
+    - _StencilRefDepth: 1
     - _StencilRefDistortionVec: 4
     - _StencilRefGBuffer: 2
-    - _StencilRefMV: 32
+    - _StencilRefMV: 33
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskMV: 43
     - _SupportDecals: 1
     - _SurfaceType: 1
     - _TessellationBackFaceCullEpsilon: -0.25
@@ -143,14 +146,18 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _AngleRange: {r: -0.65, g: 4.03, b: 0, a: 0}
-    - _Color: {r: 0, g: 1.6410601, b: 3.0228195, a: 0}
+    - _AngleRange: {r: -1.12, g: 2.71, b: 0, a: 0}
+    - _BasicDeformRange: {r: 0, g: 0.08, b: 0, a: 0}
+    - _Color: {r: 0, g: 5.250921, b: 12.091276, a: 0}
+    - _DisplacementRange: {r: 0.03, g: 0.13, b: 0, a: 0}
     - _Distortion: {r: 1, g: 1, b: 0, a: 0}
-    - _DistortionRange: {r: 0.41, g: 0.84, b: 0, a: 0}
+    - _DistortionRange: {r: 0.35, g: 0.92, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MaskSmoothness: {r: 0.18, g: 1.07, b: 0, a: 0}
-    - _ParentVel: {r: 0.5902558, g: 0.26150796, b: 0.0000020585371, a: 0}
+    - _ParentVel: {r: 0.09490571, g: -0.0062324954, b: -0.000016679513, a: 0}
+    - _ParentVelRange: {r: 0, g: 1.67, b: 0, a: 0}
+    - _ParentVelSmoothRange: {r: 0, g: 0.47, b: 0, a: 0}
     - _Range: {r: 0, g: 5.63, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
