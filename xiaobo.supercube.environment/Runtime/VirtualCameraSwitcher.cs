@@ -27,6 +27,11 @@ namespace supercube.environment
                     }
                 }
             }
+
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                ToggleFirstPersonController();
+            }
         }
 
         void EnableCamera(int index)
@@ -48,6 +53,12 @@ namespace supercube.environment
             {
                 firstPersonController.SetActive(false);
             }
+        }
+
+        void ToggleFirstPersonController()
+        {
+            FirstPersonController controller = firstPersonController.gameObject.GetComponent<FirstPersonController>();
+            controller.enabled = !controller.enabled;
         }
     }
 }
