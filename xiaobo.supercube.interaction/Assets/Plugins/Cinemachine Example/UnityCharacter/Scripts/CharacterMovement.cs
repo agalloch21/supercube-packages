@@ -28,7 +28,7 @@ public class CharacterMovement : MonoBehaviour
 	{
 	    anim = GetComponent<Animator>();
 	    mainCamera = Camera.main;
-	}
+    }
 
 	// Update is called once per frame
 	void FixedUpdate ()
@@ -36,6 +36,7 @@ public class CharacterMovement : MonoBehaviour
 #if ENABLE_LEGACY_INPUT_MANAGER
 	    input.x = Input.GetAxis("Horizontal");
 	    input.y = Input.GetAxis("Vertical");
+            Debug.Log(input);
 
 		// set speed to both vertical and horizontal inputs
         if (useCharacterForward)

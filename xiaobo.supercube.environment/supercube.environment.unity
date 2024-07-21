@@ -4734,7 +4734,7 @@ GameObject:
   - component: {fileID: 1445806863}
   m_Layer: 7
   m_Name: PlayerCamera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6672,7 +6672,7 @@ GameObject:
   - component: {fileID: 1841725499}
   m_Layer: 0
   m_Name: PlayerCamera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7072,7 +7072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

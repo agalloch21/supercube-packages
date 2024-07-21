@@ -13306,7 +13306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5281785fbe32be4488391fbe4acda0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useCharacterForward: 0
+  useCharacterForward: 1
   lockToCameraForward: 0
   turnSpeed: 10
   sprintJoystick: 332
@@ -13496,6 +13496,38 @@ PrefabInstance:
     - target: {fileID: 2617385987809981050, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Name
+      value: FlowMapStrength
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Value
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Name
+      value: FlowMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
+      value: 
+      objectReference: {fileID: 2800000, guid: 7f02fabe49a754c4eb1309bafc021aca, type: 3}
+    - target: {fileID: 5338632694917176805, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Overridden
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9106822966169100078, guid: c14770c15ada4b743a311933e4dd59ea, type: 3}
       propertyPath: m_Name

@@ -44,16 +44,20 @@ Material:
   - TransparentBackface
   - RayTracingPrepass
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _HeightMap
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AOTexture:
-        m_Texture: {fileID: 2800000, guid: df6c10d43450d4447977a18222047f47, type: 3}
+        m_Texture: {fileID: 2800000, guid: c790b39e6c253b74fb0a8becc539a392, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AOTexture2:
         m_Texture: {fileID: 2800000, guid: bf09d5909d3917943b5fb4c6f394e01f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AOTexture_Main:
+        m_Texture: {fileID: 2800000, guid: c790b39e6c253b74fb0a8becc539a392, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -77,11 +81,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture:
-        m_Texture: {fileID: 2800000, guid: 1db0cc8fdebde114db263b80e1c74fdd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 98f0f1ae192419040a7b2cac690c6a90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture2:
-        m_Texture: {fileID: 2800000, guid: 708c09673ad7c7a4090fe526e4024ec2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1db0cc8fdebde114db263b80e1c74fdd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DepthTexture:
@@ -97,11 +101,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture:
-        m_Texture: {fileID: 2800000, guid: cca59d609090b1a42859610ac5ee1be3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 88739e7889dfca0419a8230f6a843f98, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture2:
-        m_Texture: {fileID: 2800000, guid: 708c09673ad7c7a4090fe526e4024ec2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1db0cc8fdebde114db263b80e1c74fdd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture_Main:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissiveColorMap:
@@ -137,7 +145,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap_UpperLayer:
-        m_Texture: {fileID: 2800000, guid: 39225bdb1d814494a8378e097cb03a97, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7f02fabe49a754c4eb1309bafc021aca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GridTexture:
@@ -145,11 +153,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: 021c858bfb938424990bfb6dcaf920ca, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap2:
-        m_Texture: {fileID: 2800000, guid: ac8b2cb5912f2b748bd2be1574eaccc5, type: 3}
+        m_Texture: {fileID: 2800000, guid: daeebff30072b5040861070635531905, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap_Main:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightTexture:
@@ -165,7 +177,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LavaMask:
-        m_Texture: {fileID: 2800000, guid: 9d0b319a3e428e34fb7852d96c9bdb46, type: 3}
+        m_Texture: {fileID: 2800000, guid: adf363b5cc712c24cb4d87d958b58bda, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -173,7 +185,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: cca59d609090b1a42859610ac5ee1be3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 980db6459c75725499868ca247bae07f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -205,11 +217,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 466470c79a759904997fa9dce8ccf086, type: 3}
+        m_Texture: {fileID: 2800000, guid: e483078db95cf3646a988b55351979d0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture2:
-        m_Texture: {fileID: 2800000, guid: 6da9534a8108885459bdab100d3d1a25, type: 3}
+        m_Texture: {fileID: 2800000, guid: e483078db95cf3646a988b55351979d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture_Main:
+        m_Texture: {fileID: 2800000, guid: eb492d9bf64533043867f9dcd4dd43bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OverlayFlowmap:
@@ -229,11 +245,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RoughnessTexture2:
-        m_Texture: {fileID: 2800000, guid: 6de2c8e51311ad9488753aa2c60e3b09, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmoothnessTexture:
-        m_Texture: {fileID: 2800000, guid: e37fea825e2cf3747b18b6f6f5d178da, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
@@ -340,6 +356,7 @@ Material:
     m_Floats:
     - _AORemapMax: 1
     - _AORemapMin: 0
+    - _AO_Main: 1
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
@@ -353,7 +370,7 @@ Material:
     - _AlphaRemapMin: 0
     - _AlphaSrcBlend: 1
     - _AmbientOcclusion: 1
-    - _AmbientOcclusion2: 0.47
+    - _AmbientOcclusion2: 1
     - _Amount: 0.03
     - _Anisotropy: 0
     - _BlendMode: 0
@@ -380,15 +397,17 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _DstBlend2: 0
-    - _EmissionExposure: 2.29
-    - _EmissionExposure2: 80.46
+    - _EmissionExposure: 3.88
+    - _EmissionExposure2: 4.3
+    - _EmissionExposure_Main: 0
     - _EmissionFactor: 32.29
-    - _EmissionIndensity: -0.98
-    - _EmissionIndensity2: 0.37
-    - _EmissionNoiseFrequency: 6.91
-    - _EmissionNoiseOctaves: 1
-    - _EmissionNoiseScale: 1.66
-    - _EmissionNoiseSpeed: 0.05
+    - _EmissionIndensity: 3.2
+    - _EmissionIndensity2: -2.03
+    - _EmissionIndensity_Main: 0
+    - _EmissionNoiseFrequency: 3.13
+    - _EmissionNoiseOctaves: 2
+    - _EmissionNoiseScale: 9.32
+    - _EmissionNoiseSpeed: 1.36
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -402,24 +421,27 @@ Material:
     - _FlowMapTilling: 1
     - _FlowSpeed: 0.07
     - _FlowSpeed_LowerLayer: 0
-    - _FlowSpeed_UpperLayer: 0.4
+    - _FlowSpeed_UpperLayer: 0.31
     - _FlowStrength: 0.45
     - _FlowStrength_1: 1
-    - _FlowStrength_LowerLayer: 0.1
-    - _FlowStrength_UpperLayer: 0.38
+    - _FlowStrength_LowerLayer: 0
+    - _FlowStrength_UpperLayer: 0.54
     - _HeightAmplitude: 0
     - _HeightAmplitude2: 0
+    - _HeightAmplitude_Main: 0
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
     - _HeightMapStep: 5
     - _HeightMapStep2: 5
+    - _HeightMapStep_Main: 5
     - _HeightMax: 1
     - _HeightMin: -1
     - _HeightOffset: 0
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _InteractionNormalStrength: 1.1
+    - _InteractionNormalStrength: 1.22
+    - _InteractiveDistortion_Thickness: 1.2
     - _InvTilingScale: 1
     - _Ior: 1.5
     - _IridescenceMask: 1
@@ -431,17 +453,19 @@ Material:
     - _MapSmooth: 0.21
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0.47
-    - _Metallic2: 1.42
+    - _Metallic: 0.64
+    - _Metallic2: -1.16
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
+    - _Metallic_Main: 1.12
     - _MouseVelocityFactor: -0.13
     - _MoveSpeed: 0.1
     - _NormalMapSpace: 0
     - _NormalOffset: 2.2
     - _NormalScale: 1
-    - _NormalStrength: 7.5
-    - _NormalStrength2: 1.97
+    - _NormalStrength: 1.42
+    - _NormalStrength2: 79.5
+    - _NormalStrength_Main: 0.47
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -456,20 +480,21 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _PerPixelSorting: 0
-    - _PulseReductionNoiseScale_L: 1
-    - _PulseReductionNoiseStrength_L: 1
+    - _PulseReductionNoiseScale_L: 0.83
+    - _PulseReductionNoiseStrength_L: 0.47
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _RevertSmoothness: 1
+    - _RevertSmoothness: 0
     - _ShowGrid: 0
-    - _Smoothness: 0.79
-    - _Smoothness2: 0.5
+    - _Smoothness: 0.15
+    - _Smoothness2: 2.61
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
+    - _Smoothness_Main: 0.09
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularOcclusionMode: 1
@@ -522,7 +547,7 @@ Material:
     - _UseLerp: 1
     - _UseMask: 1
     - _UseShadowThreshold: 0
-    - _YFactor: 0.03
+    - _YFactor: 0.09
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
@@ -530,29 +555,32 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _BaseTiling2: {r: 3, g: 4, b: 0, a: 0}
+    - _BaseTiling2: {r: 1, g: 1, b: 0, a: 0}
     - _BaseTilling: {r: 6.11, g: 2.12, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _Direction: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionNoiseRange: {r: -5.4, g: 59.46, b: 0, a: 0}
+    - _EmissionNoiseRange: {r: -12, g: 35.5, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _FlowMapTiling: {r: 1, g: 1, b: 0, a: 0}
     - _FlowMapTilling_1: {r: 1, g: 1, b: 0, a: 0}
     - _FlowSpeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _FlowSpeed_1: {r: 0, g: 0, b: 0, a: 0}
+    - _InteractiveDistortion_Strength: {r: -0.07, g: -0.07, b: 0, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _LerpRange: {r: 0, g: 1, b: 0, a: 0}
-    - _MouseNormalFactor: {r: -0.13, g: -0.17, b: 0, a: 0}
+    - _MouseNormalFactor: {r: -0.19, g: 0, b: 0, a: 0}
     - _MouseVelocityFactor: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Tilling: {r: 4.03, g: 1.02, b: 0, a: 0}
+    - _Tint: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0}
+    - _Tint2: {r: 0.8742138, g: 0, b: 0.0074992687, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TwirlSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _TwirlTiling: {r: 1, g: 1, b: 0, a: 0}
