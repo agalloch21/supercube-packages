@@ -137,7 +137,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap_UpperLayer:
-        m_Texture: {fileID: 2800000, guid: 66b6de8d76d945d4ab39c8e3a04bb0f1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 39225bdb1d814494a8378e097cb03a97, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GridTexture:
@@ -209,7 +209,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture2:
-        m_Texture: {fileID: 2800000, guid: 9fbbd416638b3e44a80f7d4311b5071e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6da9534a8108885459bdab100d3d1a25, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OverlayFlowmap:
@@ -253,6 +253,26 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StandardFragmentSuperimposed_e2b0f382c34c45b09b7bee630749bf8e_AOTexture_477681538_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StandardFragment_3a76865b95cf4334a0c34ecd4d411726_AOTexture_856652552_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StandardFragment_3a76865b95cf4334a0c34ecd4d411726_EmissionTexture_3177763903_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StandardFragment_3a76865b95cf4334a0c34ecd4d411726_HeightMap_3073517800_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StandardFragment_3a76865b95cf4334a0c34ecd4d411726_NormalTexture_1650973273_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StandardFragment_3a76865b95cf4334a0c34ecd4d411726_SmoothnessTexture_3859021409_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -361,10 +381,14 @@ Material:
     - _DstBlend: 0
     - _DstBlend2: 0
     - _EmissionExposure: 2.29
-    - _EmissionExposure2: -1.78
+    - _EmissionExposure2: 80.46
     - _EmissionFactor: 32.29
     - _EmissionIndensity: -0.98
-    - _EmissionIndensity2: 6.07
+    - _EmissionIndensity2: 0.37
+    - _EmissionNoiseFrequency: 6.91
+    - _EmissionNoiseOctaves: 1
+    - _EmissionNoiseScale: 1.66
+    - _EmissionNoiseSpeed: 0.05
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -384,7 +408,7 @@ Material:
     - _FlowStrength_LowerLayer: 0.1
     - _FlowStrength_UpperLayer: 0.38
     - _HeightAmplitude: 0
-    - _HeightAmplitude2: 0.52
+    - _HeightAmplitude2: 0
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
     - _HeightMapStep: 5
@@ -408,7 +432,7 @@ Material:
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _Metallic: 0.47
-    - _Metallic2: 0.96
+    - _Metallic2: 1.42
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _MouseVelocityFactor: -0.13
@@ -417,7 +441,7 @@ Material:
     - _NormalOffset: 2.2
     - _NormalScale: 1
     - _NormalStrength: 7.5
-    - _NormalStrength2: 1.12
+    - _NormalStrength2: 1.97
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -432,8 +456,8 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _PerPixelSorting: 0
-    - _PulseReductionNoiseScale_L: 0.68
-    - _PulseReductionNoiseStrength_L: 76.4
+    - _PulseReductionNoiseScale_L: 1
+    - _PulseReductionNoiseStrength_L: 1
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -443,7 +467,7 @@ Material:
     - _RevertSmoothness: 1
     - _ShowGrid: 0
     - _Smoothness: 0.79
-    - _Smoothness2: -0.2
+    - _Smoothness2: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -496,6 +520,7 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseLerp: 1
+    - _UseMask: 1
     - _UseShadowThreshold: 0
     - _YFactor: 0.03
     - _ZTestDepthEqualForOpaque: 3
@@ -512,6 +537,7 @@ Material:
     - _Direction: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionNoiseRange: {r: -5.4, g: 59.46, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _FlowMapTiling: {r: 1, g: 1, b: 0, a: 0}
@@ -521,7 +547,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _LerpRange: {r: 0, g: 1, b: 0, a: 0}
-    - _MouseNormalFactor: {r: -0.13, g: -0.16, b: 0, a: 0}
+    - _MouseNormalFactor: {r: -0.13, g: -0.17, b: 0, a: 0}
     - _MouseVelocityFactor: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
