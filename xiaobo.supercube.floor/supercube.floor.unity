@@ -306,7 +306,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 264385500}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1577386639868180059, guid: a30de8785e3dfaf4abdef46d33cfa926, type: 3}
       propertyPath: m_LocalPosition.x
@@ -354,18 +354,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3231560988634008742, guid: a30de8785e3dfaf4abdef46d33cfa926, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a30de8785e3dfaf4abdef46d33cfa926, type: 3}
---- !u!4 &42619262 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1577386639868180059, guid: a30de8785e3dfaf4abdef46d33cfa926, type: 3}
-  m_PrefabInstance: {fileID: 42619261}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &54531293
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,351 +914,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1300160019}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &196262423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c062f1f622ac5144094df00784f8efb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObject: {fileID: 1089281429}
-  lakeMaterial: {fileID: 2100000, guid: 971efaf64130f6143a9fe24a766fe30f, type: 2}
-  uvScale: 7
-  maximumTriangleAmount: 8000
-  maximumTriangleSize: 9
-  triangleDensity: 8
-  receiveShadows: 1
-  shadowCastingMode: 0
-  snapMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  depthEnabled: 0
-  waveCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 5
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 10
-      value: 0.5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  depthCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 5
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 10
-      value: 0.5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  automaticFlowmapType: 0
-  automaticFlowmapDirection: {x: 0, y: 1}
-  automaticFlowMapScale: 0.1
-  automaticFlowMapDistance: 10
-  automaticFlowMapDistanceBlend: 10
-  automaticFlowMapSmooth: 1
-  automaticFlowMapSmoothAmount: 1
-  noiseFlowMap: 0
-  noiseMultiplierFlowMap: 1
-  noiseSizeXFlowMap: 0.2
-  noiseSizeZFlowMap: 0.2
-  redColorCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  greenColorCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  blueColorCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  alphaColorCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  terrainPainterData: {fileID: 11400000, guid: b92525e91730415488ae222c73e65c61, type: 2}
-  biomeType: 0
---- !u!114 &209634505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7baa468ff29244a8a0c65fb7cfdc74f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toolbarInt: 0
-  toolbarStrings:
-  - Carve
-  - Paint
-  - Manage Foliage
-  workTerrain: {fileID: 0}
-  terrainsUnder: []
-  currentWorkTerrain: 0
-  terrainCarve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 10
-      value: -2
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  smooth: 1
-  brushAdditionalSize: 20
-  terrainNoiseParametersCarve:
-    useNoise: 0
-    noiseMultiplierPower: 1
-    noiseMultiplierInside: 1
-    noiseMultiplierOutside: 0.25
-    noiseSizeX: 10
-    noiseSizeZ: 10
-  distanceClearFoliage: 1
-  distanceClearFoliageTrees: 1
-  terrainLayersData:
-  - layerName: Terrain Paint Layer
-    isActive: 1
-    power:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    powerMultiplier: 1
-    height:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 800
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    heightMultiplier: 1
-    heightPower: 1
-    splatMapID: 0
-    angle:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 90
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    noiseParameters:
-      useNoise: 0
-      noiseMultiplierPower: 1
-      noiseMultiplierInside: 1
-      noiseMultiplierOutside: 0.25
-      noiseSizeX: 10
-      noiseSizeZ: 10
-    convexParameters:
-      convex: 0
-      steps: 1
-      stepSize: 1
-      strength: 1
 --- !u!1 &209721105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,19 +1194,16 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1491473248}
-  - {fileID: 758461465}
-  - {fileID: 2003687816}
-  - {fileID: 1713418933}
-  - {fileID: 760146308}
-  - {fileID: 1619649971}
-  - {fileID: 647171434}
   - {fileID: 1027527526}
-  - {fileID: 861919915}
   - {fileID: 765290538}
+  - {fileID: 1491473248}
+  - {fileID: 1713418933}
+  - {fileID: 861919915}
+  - {fileID: 647171434}
+  - {fileID: 2003687816}
   - {fileID: 2102185797}
-  - {fileID: 42619262}
-  - {fileID: 1684885589}
+  - {fileID: 760146308}
+  - {fileID: 758461465}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &265713969
@@ -2416,24 +2063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
 --- !u!114 &442620217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3726,7 +3355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearColorMode: 2
+  clearColorMode: 1
   backgroundColorHDR: {r: 0, g: 0, b: 0, a: 0}
   clearDepth: 1
   volumeLayerMask:
@@ -5117,7 +4746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &758461465
 Transform:
   m_ObjectHideFlags: 0
@@ -5298,6 +4927,60 @@ Transform:
   - {fileID: 551802656}
   m_Father: {fileID: 1329707596}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &794335249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794335250}
+  - component: {fileID: 794335251}
+  m_Layer: 0
+  m_Name: Custom Pass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794335250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794335249}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2089784944}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794335251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794335249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d6499a6bd256e47b859377446493a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  fadeRadius: 0
+  priority: 0
+  customPasses: []
+  injectionPoint: 3
+  m_TargetCamera: {fileID: 0}
+  useTargetCamera: 0
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &820679421
 GameObject:
   m_ObjectHideFlags: 0
@@ -11328,7 +11011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5281785fbe32be4488391fbe4acda0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useCharacterForward: 1
+  useCharacterForward: 0
   lockToCameraForward: 0
   turnSpeed: 10
   sprintJoystick: 332
@@ -11648,7 +11331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027527526}
   m_Layer: 0
-  m_Name: -----------Settings----------------------
+  m_Name: -----------Post-Processing----------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12430,134 +12113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 972fcd29bf9fe274087ba3a700bac4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbarInt: 2
-  baseProfile: {fileID: 196262423}
-  currentProfile: {fileID: 11400000, guid: a8ceaff61ccc458418933d9c691a659b, type: 2}
-  oldProfile: {fileID: 11400000, guid: a8ceaff61ccc458418933d9c691a659b, type: 2}
-  points: []
-  generateMeshParts: 0
-  meshPartsCount: 3
-  meshesPartTransforms: []
-  generateLod: 0
-  generateLodGPU: 1
-  lodDistance: {x: 100, y: 80, z: 50}
-  lodRefreshTime: 0.1
-  height: 0
-  lockHeight: 1
-  yOffset: 0
-  trianglesGenerated: 96
-  vertsGenerated: 65
-  currentMesh: {fileID: 1652718779}
-  meshfilter: {fileID: 1089281431}
-  depth:
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 1, y: 1}
-  closeDistanceSimulation: 5
-  angleSimulation: 5
-  checkDistanceSimulation: 50
-  removeFirstPointSimulation: 1
-  normalFromRaycast: 0
-  snapToTerrain: 0
-  floatSpeed: 10
-  nmSpline: {fileID: 1089281432}
-  <TriangleSizeByLimit>k__BackingField: 0.099032685
-  meshTerrainGOs: []
-  terrainManager:
-    terrainCarveQuality: 2048
-    nmNmSpline: {fileID: 1089281432}
-    baseTerrainPainterData: {fileID: 209634505}
-    terrainPainterGetDataOld: {fileID: 0}
-  vertexPainterData:
-    alwaysDrawing: 1
-    drawing: 0
-    showVertexColors: 0
-    showFlowMap: 0
-    toolbarInt: 0
-    flowToolSelected: 0
-    drawColor: {r: 0.31411868, g: 0.85490197, b: 0.11372547, a: 1}
-    drawSize: 1.27
-    drawBlendSize: 1
-    opacity: 0.1
-    speedMultiplier: 1
-    drawColorR: 1
-    drawColorG: 1
-    drawColorB: 1
-    drawColorA: 1
-    flowSpeed: 1
-    flowDirection: 0
-    drawOnMultiple: 0
-    height: 0.1
-    overridenColors: 1
-    overridenFlow: 0
-    overridenVertexHeight: 0
-    currentDrawObject: {fileID: 0}
-    meshFilters: []
-    meshRenderers:
-    - {fileID: 1089281433}
-    oldMaterials: []
 --- !u!33 &1089281431
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12578,536 +12133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 178cbc0d599b414d8ee6fc19efe7bdbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainControlPoints:
-  - position: {x: 8.096452, y: 0, z: -10.147043, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-    orientation: {x: 0, y: 0.9501125, z: 0, w: -0.31190738}
-    snap: 0
-    meshCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    additionalDensityU: 1
-    additionalDensityV: 1
-  - position: {x: -6.940297, y: 0, z: -9.794854, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-    orientation: {x: 0, y: -0.36607048, z: 0, w: 0.9305872}
-    snap: 0
-    meshCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    additionalDensityU: 1
-    additionalDensityV: 1
-  - position: {x: -9.585822, y: 0, z: 8.85011, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-    orientation: {x: 0, y: 0.31190738, z: 0, w: 0.9501125}
-    snap: 0
-    meshCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    additionalDensityU: 1
-    additionalDensityV: 1
-  - position: {x: 8.429656, y: 0, z: 11.091787, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-    orientation: {x: 0, y: 0.9305872, z: 0, w: 0.36607048}
-    snap: 0
-    meshCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    additionalDensityU: 1
-    additionalDensityV: 1
-  controlPointsPositionUp:
-  - {x: 7.693738, y: 0, z: -9.850697}
-  - {x: -6.5743046, y: 0, z: -9.454194}
-  - {x: -9.183108, y: 0, z: 8.553763}
-  - {x: 8.063675, y: 0, z: 10.751127}
-  controlPointsPositionDown:
-  - {x: 8.499166, y: 0, z: -10.44339}
-  - {x: -7.3062897, y: 0, z: -10.135514}
-  - {x: -9.988536, y: 0, z: 9.146457}
-  - {x: 8.79566, y: 0, z: 11.432447}
-  points:
-  - position: {x: 6.8357396, y: 0, z: -11.261231}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 5.0806875, y: 0, z: -12.005851}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 2.9900541, y: 0, z: -12.400228}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 0.7225971, y: 0, z: -12.463686}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -1.5629244, y: 0, z: -12.21555}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -3.7077522, y: 0, z: -11.675151}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -5.5531282, y: 0, z: -10.861811}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -6.940296, y: 0, z: -9.794853}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -8.005164, y: 0, z: -8.22744}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -8.957179, y: 0, z: -6.035372}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -9.747885, y: 0, z: -3.4219477}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -10.328825, y: 0, z: -0.5904646}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -10.651545, y: 0, z: 2.2557802}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -10.667589, y: 0, z: 4.913489}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -10.328501, y: 0, z: 7.179364}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -9.585823, y: 0, z: 8.850113}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -8.197117, y: 0, z: 10.075754}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -6.1046295, y: 0, z: 11.11421}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -3.5369322, y: 0, z: 11.92401}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: -0.7225971, y: 0, z: 12.463686}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 2.1098032, y: 0, z: 12.691771}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 4.731694, y: 0, z: 12.566795}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 6.914507, y: 0, z: 12.047291}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 8.429665, y: 0, z: 11.091789}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 9.366542, y: 0, z: 9.412917}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 9.98112, y: 0, z: 6.9270134}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 10.294763, y: 0, z: 3.8981647}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 10.328824, y: 0, z: 0.5904641}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 10.104665, y: 0, z: -2.731999}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 9.643644, y: 0, z: -5.805133}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 8.96712, y: 0, z: -8.364845}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  - position: {x: 8.096451, y: 0, z: -10.147045}
-    width: 0
-    snap: 0
-    lerpValue: 0
-    orientation: {x: 0, y: 0, z: 0, w: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 0}
-    normal: {x: 0, y: 0, z: 0}
-    tangent: {x: 0, y: 0, z: 0}
-    binormal: {x: 0, y: 0, z: 0}
-    distance: 0
-    density: 0
-    id: 0
-  pointsUp: []
-  pointsDown: []
-  snapToTerrain: 0
-  width: 1
-  isLooping: 1
-  length: 0
-  useRotation: 0
-  useWidth: 0
-  useSplinePointDensity: 1
-  useSplineWidthDensity: 0
-  useMeshCurve: 0
-  usePointSnap: 0
-  dataSet: 1
-  selectedPosition: 0
 --- !u!23 &1089281433
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19989,37 +19014,6 @@ Transform:
   - {fileID: 904103522}
   m_Father: {fileID: 1193541233}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1619649970
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1619649971}
-  m_Layer: 0
-  m_Name: -----------Debug----------------------
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1619649971
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619649970}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 264385500}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1634956506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20326,37 +19320,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7239202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1684885588
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1684885589}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1684885589
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684885588}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 264385500}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685094425
 GameObject:
   m_ObjectHideFlags: 0
@@ -20555,7 +19518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1713418933
 Transform:
   m_ObjectHideFlags: 0
@@ -22429,7 +21392,6 @@ GameObject:
   - component: {fileID: 2003687821}
   - component: {fileID: 2003687820}
   - component: {fileID: 2003687819}
-  - component: {fileID: 2003687818}
   - component: {fileID: 2003687817}
   m_Layer: 11
   m_Name: LavaParticle
@@ -22469,22 +21431,6 @@ MonoBehaviour:
   m_Property:
     m_Name: TargetPlane
   Target: {fileID: 647171434}
---- !u!114 &2003687818
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003687815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fdfea1f838247c40921a07afedde962, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Space: 0
-  m_Property:
-    m_Name: User
-  Target: {fileID: 1713418933}
 --- !u!114 &2003687819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22499,7 +21445,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
   m_Bindings:
-  - {fileID: 2003687818}
   - {fileID: 2003687817}
   m_VisualEffect: {fileID: 2003687821}
 --- !u!73398921 &2003687820
@@ -22616,6 +21561,12 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: {fileID: 8400000, guid: 810ea6b46644825428a04fea785b9264, type: 2}
         m_Name: InteractionNormalMap
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: adf363b5cc712c24cb4d87d958b58bda, type: 3}
+        m_Name: LavaMask
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 31324da246486d642a3f53ec73a2d079, type: 3}
+        m_Name: RockMask
         m_Overridden: 1
     m_Bool:
       m_Array: []
@@ -23210,6 +22161,7 @@ Transform:
   - {fileID: 1033099031}
   - {fileID: 1504581402}
   - {fileID: 442620218}
+  - {fileID: 794335250}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2102185796
@@ -23405,5 +22357,6 @@ SceneRoots:
   - {fileID: 2089784944}
   - {fileID: 2004001006}
   - {fileID: 1905905933}
+  - {fileID: 42619261}
   - {fileID: 264385500}
   - {fileID: 324668202}
