@@ -44,7 +44,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -481
     y: -75
-    width: 2739
+    width: 3091
     height: 3731
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -9769,7 +9769,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1825, y: 1245}
+  m_UIPosition: {x: 2177, y: 1243}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -9856,7 +9856,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661616826}
   - {fileID: 8926484042661616828}
-  m_UIPosition: {x: 1833, y: 1453}
+  m_UIPosition: {x: 2185, y: 1451}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -10361,7 +10361,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661616856}
-  m_UIPosition: {x: 1825, y: 1945}
+  m_UIPosition: {x: 2160, y: 2115}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -10561,7 +10561,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616843}
   - {fileID: 8926484042661616840}
   - {fileID: 8926484042661616849}
-  m_UIPosition: {x: 1826.0388, y: 2414.9695}
+  m_UIPosition: {x: 2162, y: 2433}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11302,7 +11302,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
+      m_SerializableObject: False
     m_Space: -1
   m_Property:
     name: _vfx_enabled
@@ -11878,7 +11878,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1255, y: 2727}
+  m_UIPosition: {x: 1730, y: 2697}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -12145,7 +12145,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1423, y: 2727}
+  m_UIPosition: {x: 1935, y: 2727}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -12222,7 +12222,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 30
+      m_SerializableObject: 24
     m_Space: -1
   m_Property:
     name: b
@@ -13043,7 +13043,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1469, y: 2883}
+  m_UIPosition: {x: 1889, y: 2869}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
