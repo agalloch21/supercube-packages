@@ -10177,11 +10177,12 @@ MonoBehaviour:
   - {fileID: 8926484042661616843}
   - {fileID: 8926484042661616840}
   - {fileID: 8926484042661616849}
-  m_UIPosition: {x: 1826.0388, y: 2414.9695}
+  m_UIPosition: {x: 1825, y: 2415}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661616880}
+  - {fileID: 8926484042661617104}
   - {fileID: 8926484042661616832}
   m_OutputSlots: []
   m_Label: 
@@ -10194,12 +10195,12 @@ MonoBehaviour:
   - link: []
   blendMode: 1
   cullMode: 0
-  zWriteMode: 0
+  zWriteMode: 2
   zTestMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
   excludeFromTUAndAA: 0
-  sortingPriority: 0
+  sortingPriority: 1
   m_SubOutputs:
   - {fileID: 8926484042661616834}
   colorMapping: 0
@@ -10207,7 +10208,7 @@ MonoBehaviour:
   flipbookLayout: 0
   flipbookBlendFrames: 0
   flipbookMotionVectors: 0
-  useSoftParticle: 0
+  useSoftParticle: 1
   vfxSystemSortPriority: 0
   sort: 0
   sortMode: 0
@@ -10492,7 +10493,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.34
+      m_SerializableObject: 0.61
     m_Space: -1
   m_Property:
     name: _Alpha
@@ -15161,3 +15162,37 @@ MonoBehaviour:
   m_LinkedSlots:
   - {fileID: 8926484042661617091}
   - {fileID: 8926484042661616206}
+--- !u!114 &8926484042661617104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661617104}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661616831}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: -1
+  m_Property:
+    name: softParticleFadeDistance
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []

@@ -127,22 +127,22 @@ Material:
     - _TransparentDepthPrepassEnable: 0
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
-    - _TransparentZWrite: 0
+    - _TransparentZWrite: 1
     - _TriplanarBlend: 1
     - _TriplanarFactor: 1.16
-    - _TriplanarTile: 1.14
+    - _TriplanarTile: 2.52
     - _UVRotate: 180
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _Color2: {r: 1, g: 1, b: 1, a: 0}
     - _DepthRange: {r: 0.5, g: 0.52, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
-    - _Emission: {r: 0.02224989, g: 0.022479808, b: 0.031446517, a: 0}
-    - _Emission2: {r: 1.5437342, g: 0, b: 131.2174, a: 0}
+    - _Emission: {r: 0.065998495, g: 0.064020395, b: 0.24528301, a: 0}
+    - _Emission2: {r: 26.443111, g: 0, b: 14.971795, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlipbookSize: {r: 8, g: 8, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}

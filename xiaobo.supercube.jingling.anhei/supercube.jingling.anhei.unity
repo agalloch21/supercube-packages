@@ -647,13 +647,13 @@ PrefabInstance:
       addedObject: {fileID: 646264861}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 468940671}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 369843406}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1238791482}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 468940671}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
 --- !u!1 &211184280
@@ -909,7 +909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 369843407}
   m_VisualEffect: {fileID: 369843410}
 --- !u!73398921 &369843409
 VFXRenderer:
@@ -1099,7 +1100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 468940672}
   m_VisualEffect: {fileID: 468940675}
 --- !u!73398921 &468940674
 VFXRenderer:
@@ -1494,7 +1496,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 542476351}
   m_VisualEffect: {fileID: 542476354}
 --- !u!73398921 &542476353
 VFXRenderer:
@@ -1909,7 +1912,7 @@ VisualEffect:
       - m_Value: {x: -0, y: 0, z: 0}
         m_Name: XiaojinglingTransform_angles
         m_Overridden: 1
-      - m_Value: {x: 0.000000024557131, y: 0, z: -0.000000086307544}
+      - m_Value: {x: 7.1527495e-10, y: 0, z: -0.00000008034708}
         m_Name: XiaojinglingTransform_position
         m_Overridden: 1
       - m_Value: {x: 1.0000002, y: 1, z: 1.0000002}
