@@ -70,7 +70,7 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _Animation: 0
+    - _Animation: 1
     - _BackgroundDim: 0.5
     - _BasicDeformFreq: 2.8
     - _BasicDeformOctaves: 1
