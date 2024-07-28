@@ -80,7 +80,7 @@ Material:
     m_Floats:
     - _AO: 1.07
     - _AddPrecomputedVelocity: 0
-    - _Alpha: 1
+    - _Alpha: 0.67
     - _Alpha2: 0.47
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
@@ -142,7 +142,7 @@ Material:
     - _DepthRange: {r: 0.5, g: 0.52, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _Emission: {r: 0.065998495, g: 0.064020395, b: 0.24528301, a: 0}
-    - _Emission2: {r: 26.443111, g: 0, b: 14.971795, a: 0}
+    - _Emission2: {r: 20.649292, g: 20.649292, b: 20.649292, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlipbookSize: {r: 8, g: 8, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
