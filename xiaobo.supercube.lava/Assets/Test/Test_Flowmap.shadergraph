@@ -945,6 +945,9 @@
             "m_Id": "f13d635758684e909079b98dcd16ca91"
         },
         {
+            "m_Id": "dd40674d3c6e4afc92ce755a38eb243e"
+        },
+        {
             "m_Id": "e8b5204703ab437c8972ba61dbd55c23"
         },
         {
@@ -969,7 +972,8 @@
         "00cbe7be-efc2-4a99-af39-20f717dffb5e",
         "09147603-3105-4535-8ded-f590c743579d",
         "d0cd8fa6-f36c-438b-bffa-32400fa15576",
-        "c7c63a54-d7e2-4096-9c6a-9c254df83940"
+        "c7c63a54-d7e2-4096-9c6a-9c254df83940",
+        "6169e871-7a95-4198-a4b6-fbd75d814d18"
     ],
     "m_PropertyIds": [
         1551340604,
@@ -977,7 +981,8 @@
         -477499708,
         1099163980,
         -1524553862,
-        -487227545
+        -487227545,
+        -280517347
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -4133,6 +4138,21 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "dd40674d3c6e4afc92ce755a38eb243e",
+    "m_Id": -280517347,
+    "m_DisplayName": "PulseReductionNoiseSpeed",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_PulseReductionNoiseSpeed",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

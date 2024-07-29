@@ -3719,6 +3719,9 @@
             "m_Id": "e3a1076c548f421894de5aae681c43d2"
         },
         {
+            "m_Id": "7d8527515ec24ff380a9f4f843db0bbc"
+        },
+        {
             "m_Id": "4af2b366eae44a70bca0948bbb553562"
         },
         {
@@ -3749,7 +3752,8 @@
         "85decfa5-0dcb-498f-8d88-f0b52dfd72a2",
         "4ccf1c6b-7b38-47ec-914f-0e421fb4f1f0",
         "d0cd8fa6-f36c-438b-bffa-32400fa15576",
-        "c7c63a54-d7e2-4096-9c6a-9c254df83940"
+        "c7c63a54-d7e2-4096-9c6a-9c254df83940",
+        "6169e871-7a95-4198-a4b6-fbd75d814d18"
     ],
     "m_PropertyIds": [
         1551340604,
@@ -3763,7 +3767,8 @@
         -606881842,
         -1176724259,
         -1524553862,
-        -487227545
+        -487227545,
+        -280517347
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -10047,6 +10052,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "7d8527515ec24ff380a9f4f843db0bbc",
+    "m_Id": -280517347,
+    "m_DisplayName": "PulseReductionNoiseSpeed",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_PulseReductionNoiseSpeed",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "7dbff98ba1704a4fb6845185e3cd021e",
     "m_Id": 3,
     "m_DisplayName": "Z",
@@ -12686,6 +12706,21 @@
     "m_Property": {
         "m_Id": "94619a2e6b24445684a44b3f84c73cfa"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "a5a875ef3c7b4c68a8eb0f9cd05f6811",
+    "m_Id": -280517347,
+    "m_DisplayName": "PulseReductionNoiseSpeed",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_PulseReductionNoiseSpeed",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -15685,6 +15720,9 @@
             "m_Id": "f7c53b96288e4ef1b725009c92578562"
         },
         {
+            "m_Id": "efbcf2b0e305400da2afc1788285922c"
+        },
+        {
             "m_Id": "f1678dff9ed443ffb382ca626e2eecaa"
         },
         {
@@ -15715,7 +15753,8 @@
         "85decfa5-0dcb-498f-8d88-f0b52dfd72a2",
         "4ccf1c6b-7b38-47ec-914f-0e421fb4f1f0",
         "d0cd8fa6-f36c-438b-bffa-32400fa15576",
-        "c7c63a54-d7e2-4096-9c6a-9c254df83940"
+        "c7c63a54-d7e2-4096-9c6a-9c254df83940",
+        "6169e871-7a95-4198-a4b6-fbd75d814d18"
     ],
     "m_PropertyIds": [
         1551340604,
@@ -15729,7 +15768,8 @@
         -606881842,
         -1176724259,
         -1524553862,
-        -487227545
+        -487227545,
+        -280517347
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -16560,19 +16600,19 @@
             "m_Id": "6dd1392d55954838a44099b9690cdd68"
         },
         {
+            "m_Id": "85008395e50b477d8b26c4a78412ac0e"
+        },
+        {
             "m_Id": "2b23e9e92f5a4d019839f0f636e73f6d"
         },
         {
             "m_Id": "54c20a9726634808b4c0c385978c5464"
         },
         {
-            "m_Id": "e2069e9ce7fe47d2ac6f51263edd36ef"
-        },
-        {
-            "m_Id": "85008395e50b477d8b26c4a78412ac0e"
-        },
-        {
             "m_Id": "98f4a04f8be44f5cbf79f4629d731d11"
+        },
+        {
+            "m_Id": "e2069e9ce7fe47d2ac6f51263edd36ef"
         },
         {
             "m_Id": "fcaeb32708084bc68420bcc594c16bbf"
@@ -17595,6 +17635,9 @@
             "m_Id": "311246796dfb4c178431eac2a592b0fd"
         },
         {
+            "m_Id": "a5a875ef3c7b4c68a8eb0f9cd05f6811"
+        },
+        {
             "m_Id": "7879654e250144818b7747cf3b7c1e19"
         },
         {
@@ -17625,7 +17668,8 @@
         "85decfa5-0dcb-498f-8d88-f0b52dfd72a2",
         "4ccf1c6b-7b38-47ec-914f-0e421fb4f1f0",
         "d0cd8fa6-f36c-438b-bffa-32400fa15576",
-        "c7c63a54-d7e2-4096-9c6a-9c254df83940"
+        "c7c63a54-d7e2-4096-9c6a-9c254df83940",
+        "6169e871-7a95-4198-a4b6-fbd75d814d18"
     ],
     "m_PropertyIds": [
         1551340604,
@@ -17639,7 +17683,8 @@
         -606881842,
         -1176724259,
         -1524553862,
-        -487227545
+        -487227545,
+        -280517347
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -17692,6 +17737,21 @@
     "m_Property": {
         "m_Id": "b796bb962c5d40d9b575d63434550850"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "efbcf2b0e305400da2afc1788285922c",
+    "m_Id": -280517347,
+    "m_DisplayName": "PulseReductionNoiseSpeed",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_PulseReductionNoiseSpeed",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
