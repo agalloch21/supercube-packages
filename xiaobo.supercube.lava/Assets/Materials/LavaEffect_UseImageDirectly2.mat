@@ -397,17 +397,17 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _DstBlend2: 0
-    - _EmissionExposure: 3.88
+    - _EmissionExposure: 4.02
     - _EmissionExposure2: -24.8
-    - _EmissionExposure_Main: -0.4
+    - _EmissionExposure_Main: 1.68
     - _EmissionFactor: 32.29
-    - _EmissionIndensity: 3.2
+    - _EmissionIndensity: 2.64
     - _EmissionIndensity2: 8.49
-    - _EmissionIndensity_Main: 2.86
-    - _EmissionNoiseFrequency: 0.94
-    - _EmissionNoiseOctaves: 1.1
-    - _EmissionNoiseScale: 0.85
-    - _EmissionNoiseSpeed: 0.2
+    - _EmissionIndensity_Main: -1
+    - _EmissionNoiseFrequency: 7.42
+    - _EmissionNoiseOctaves: 1
+    - _EmissionNoiseScale: 0.93
+    - _EmissionNoiseSpeed: 0.1
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -417,8 +417,8 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _Float: -0
-    - _Float_1: 0.36
+    - _Float: 1
+    - _Float_1: 1
     - _FlowMapTilling: 1
     - _FlowSpeed: 0.07
     - _FlowSpeed_LowerLayer: 0
@@ -451,6 +451,14 @@ Material:
     - _LerpSpeed: 0.24
     - _LerpSpeed_1: -0.2
     - _LinkDetailsWithBase: 1
+    - _MT_RandomEmission_Exposure: -1.54
+    - _MT_RandomEmission_Frequency: 2
+    - _MT_RandomEmission_Intensity: 4.46
+    - _MT_RandomEmission_Octaves: 1
+    - _MT_RandomEmission_RedPower: 1
+    - _MT_RandomEmission_RedThreshold: 1
+    - _MT_RandomEmission_Scale: 0.88
+    - _MT_RandomEmission_Speed: 0.2
     - _MapSmooth: 0.21
     - _MaterialID: 1
     - _MaterialTypeMask: 2
@@ -483,6 +491,8 @@ Material:
     - _PerPixelSorting: 0
     - _PulseReductionNoiseScale_L: 0.83
     - _PulseReductionNoiseStrength_L: 0.47
+    - _RandomEmission_Exposure: 2.35
+    - _RandomEmission_Intensity: -0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -563,7 +573,7 @@ Material:
     - _Direction: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionNoiseRange: {r: 1, g: 2, b: 0, a: 0}
+    - _EmissionNoiseRange: {r: 7.3, g: -48.27, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _FlowMapTiling: {r: 1, g: 1, b: 0, a: 0}
@@ -574,6 +584,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _LerpRange: {r: 0, g: 1, b: 0, a: 0}
+    - _MT_RandomEmission_Range: {r: -0.06, g: 0.75, b: 0, a: 0}
     - _MouseNormalFactor: {r: -0.19, g: 0, b: 0, a: 0}
     - _MouseVelocityFactor: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
@@ -591,7 +602,7 @@ Material:
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _UVOffset_LowerLayer: {r: 0, g: 0, b: 0, a: 0}
     - _UVOffset_UpperLayer: {r: 0, g: 0, b: 0, a: 0}
-    - _Vector2: {r: 1, g: 1.58, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 13.13, b: 0, a: 0}
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _Weight: {r: -0.51, g: 1, b: 0, a: 0}
     - _WeightRange: {r: 0, g: 0, b: 0, a: 0}
