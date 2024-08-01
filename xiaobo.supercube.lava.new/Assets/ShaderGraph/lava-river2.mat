@@ -579,7 +579,7 @@ Material:
     - _Direction: {r: 1, g: 1, b: 0, a: 0}
     - _DisplayRange: {r: 0.33, g: 1, b: 0, a: 0}
     - _DisplayRangeX: {r: 0.25, g: 0.76, b: 0, a: 0}
-    - _DisplayRangeY: {r: -0.18, g: 1, b: 0, a: 0}
+    - _DisplayRangeY: {r: 0, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionNoiseRange: {r: 7.3, g: -48.27, b: 0, a: 0}
