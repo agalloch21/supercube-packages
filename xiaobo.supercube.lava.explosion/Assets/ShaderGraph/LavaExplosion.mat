@@ -28,8 +28,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DISABLE_DECALS
   - _DISABLE_SSR_TRANSPARENT
-  - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -50,7 +50,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _ColorTexture:
-        m_Texture: {fileID: 2800000, guid: 3506c92e37b2c294692176252f0d3985, type: 3}
+        m_Texture: {fileID: 2800000, guid: aeabf085e18a79346adbe1d5cfe26a6c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture:
@@ -120,20 +120,21 @@ Material:
     - _EmissionExposure: 1.03
     - _EmissionIndensity: 41.57
     - _EnableBlendModePreserveSpecularLighting: 0
-    - _EnableFogOnTransparent: 1
+    - _EnableFogOnTransparent: 0
     - _ExcludeFromTUAndAA: 0
-    - _Float: 2.08
-    - _FlowSpeed: 0.74
-    - _FlowStrength: 0.35
+    - _Float: -0.26
+    - _FlowInfluencerStrength: -0.26
+    - _FlowSpeed: 0.59
+    - _FlowStrength: 0.36
     - _HeightAmplitude: 1.8
     - _LengthScale: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 1.41
-    - _NoiseFrequency: 4.57
+    - _Metallic: 0.46
+    - _NoiseFrequency: 2.5
     - _NoiseOctaves: 48
     - _NoiseScale: 1
-    - _NormalStrength: 2.13
+    - _NormalStrength: 20.5
     - _OpaqueCullMode: 2
     - _PerPixelSorting: 0
     - _RadialScale: 1
@@ -143,7 +144,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
-    - _Smothness: 0.73
+    - _Smothness: 0.77
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -155,7 +156,7 @@ Material:
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 41
-    - _SupportDecals: 1
+    - _SupportDecals: 0
     - _SurfaceType: 1
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
@@ -179,7 +180,7 @@ Material:
     - _FireUVOffset: {r: 0, g: 0, b: 0, a: 0}
     - _FlipbookSize: {r: 6, g: 6, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Range: {r: 0.22, g: 1.04, b: 0, a: 0}
+    - _Range: {r: 0.21, g: 0.99, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
