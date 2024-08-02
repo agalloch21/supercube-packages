@@ -22,35 +22,35 @@ public class LavaMeshGenerator : MonoBehaviour
     List<RiverWrapper> riverList = new List<RiverWrapper>();
     void Start()
     {
-        InitializeRiverList();
+        //InitializeRiverList();
     }
 
 
     void Update()
     {
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            RiverWrapper river = riverList[i];
+        //for (int i = 0; i < transform.childCount; i++)
+        //{
+        //    RiverWrapper river = riverList[i];
 
-            river.age += Time.deltaTime;
+        //    river.age += Time.deltaTime;
 
-            if(river.age > river.lifetime)river.age = 0;
+        //    if(river.age > river.lifetime)river.age = 0;
 
-            float percentage = river.age / river.lifetime;
-            if(percentage < 0.2f)
-            {
-                river.mat.SetVector("_DisplayRangeY", new Vector2(1f - percentage / 0.2f, 1f));
-            }
-            else if (percentage > 0.8f)
-            {
-                river.mat.SetVector("_DisplayRangeY", new Vector2(0f, 1f - (percentage-0.8f) / 0.2f));
-            }
-            else
-            {
-                river.mat.SetVector("_DisplayRangeY", new Vector2(0f, 1f));
-            }
+        //    float percentage = river.age / river.lifetime;
+        //    if(percentage < 0.2f)
+        //    {
+        //        river.mat.SetVector("_DisplayRangeY", new Vector2(1f - percentage / 0.2f, 1f));
+        //    }
+        //    else if (percentage > 0.8f)
+        //    {
+        //        river.mat.SetVector("_DisplayRangeY", new Vector2(0f, 1f - (percentage-0.8f) / 0.2f));
+        //    }
+        //    else
+        //    {
+        //        river.mat.SetVector("_DisplayRangeY", new Vector2(0f, 1f));
+        //    }
 
-        }
+        //}
     }
 
 
