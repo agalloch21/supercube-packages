@@ -406,7 +406,7 @@ Material:
     - _DstBlend: 0
     - _DstBlend2: 0
     - _EdgeNoiseScale: 0.58
-    - _EdgeNoiseStrength: 0.14
+    - _EdgeNoiseStrength: 0
     - _EmissionExposure: 4.02
     - _EmissionExposure2: -24.8
     - _EmissionExposure_Main: 1.68
@@ -436,7 +436,7 @@ Material:
     - _FlowStrength: 0.45
     - _FlowStrength_1: 1
     - _FlowStrength_LowerLayer: 0
-    - _FlowStrength_UpperLayer: -0.15
+    - _FlowStrength_UpperLayer: -0.1
     - _HeightAmplitude: 0
     - _HeightAmplitude2: 0
     - _HeightAmplitude_Main: 0
@@ -499,8 +499,8 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _PerPixelSorting: 0
-    - _PulseReductionNoiseScale_L: 0.83
-    - _PulseReductionNoiseStrength_L: 0.47
+    - _PulseReductionNoiseScale_L: 0.14
+    - _PulseReductionNoiseStrength_L: 0.33
     - _RandomEmission_Exposure: 2.35
     - _RandomEmission_Intensity: -0
     - _RayTracing: 0
