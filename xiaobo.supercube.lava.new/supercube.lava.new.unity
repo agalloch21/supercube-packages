@@ -616,6 +616,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &431001401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431001403}
+  - component: {fileID: 431001404}
+  m_Layer: 0
+  m_Name: NDI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431001403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431001401}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &431001404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431001401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d98e5bfcdff4847ad69efa861a8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ndiName: NDI Sender
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: 1cc5d94098c8b8046b5dde589ab67e4c, type: 2}
+  _resources: {fileID: 11400000, guid: 69304b86950074db7ba8caba75214004, type: 2}
 --- !u!1 &464021954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1071,7 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 0
+  m_projectionMatrixMode: 1
   m_GateFitMode: 1
   m_FOVAxisMode: 0
   m_Iso: 200
@@ -1045,13 +1095,13 @@ Camera:
   far clip plane: 10000
   field of view: 60
   orthographic: 1
-  orthographic size: 15.77
+  orthographic size: 5.76
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4096
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 1cc5d94098c8b8046b5dde589ab67e4c, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1069,13 +1119,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604346725}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1905905933}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!114 &604346731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,7 +1133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604346725}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb773d1f32940fc4ea49039e9aa3bae1, type: 3}
   m_Name: 
@@ -6927,6 +6977,9 @@ VisualEffect:
       - m_Value: 0.14
         m_Name: FlowMapStrength
         m_Overridden: 1
+      - m_Value: 1
+        m_Name: Animation
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -6950,6 +7003,9 @@ VisualEffect:
       m_Array:
       - m_Value: {fileID: 2800000, guid: 9020be737ea31a246ae11d447cee9e51, type: 3}
         m_Name: FlowMap
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 10591896c5a413147a30adc8835bc2ab, type: 3}
+        m_Name: FlowMap2
         m_Overridden: 1
     m_Bool:
       m_Array: []
@@ -6983,8 +7039,10 @@ MonoBehaviour:
   vfx: {fileID: 1183846886}
   flowmapList:
   - {fileID: 2800000, guid: 9020be737ea31a246ae11d447cee9e51, type: 3}
+  - {fileID: 2800000, guid: 36629c2504af7044da99021d2cff43f3, type: 3}
+  - {fileID: 2800000, guid: c73fafe7418e5824ab40807a41fc0c95, type: 3}
   - {fileID: 2800000, guid: 10591896c5a413147a30adc8835bc2ab, type: 3}
-  lifetimeRange: {x: 3, y: 6}
+  lifetimeRange: {x: 10, y: 20}
 --- !u!1 &1333161471
 GameObject:
   m_ObjectHideFlags: 0
@@ -12673,3 +12731,4 @@ SceneRoots:
   - {fileID: 2004001006}
   - {fileID: 1905905933}
   - {fileID: 324668202}
+  - {fileID: 431001403}

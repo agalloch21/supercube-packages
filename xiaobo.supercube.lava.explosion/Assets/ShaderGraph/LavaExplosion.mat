@@ -117,7 +117,7 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
     - _DstBlend2: 10
-    - _EmissionExposure: 1.03
+    - _EmissionExposure: -5.55
     - _EmissionIndensity: 41.57
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 0
