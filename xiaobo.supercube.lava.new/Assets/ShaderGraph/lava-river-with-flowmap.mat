@@ -81,7 +81,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture:
-        m_Texture: {fileID: 2800000, guid: 4b4dccafd563fd14b84932e5726aeb51, type: 3}
+        m_Texture: {fileID: 2800000, guid: e251a11f3f83e0045a790b5b663e665b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture2:
@@ -145,7 +145,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap_UpperLayer:
-        m_Texture: {fileID: 2800000, guid: 9c4a62bd68ea04043a35ce9a96ac7dbb, type: 3}
+        m_Texture: {fileID: 2800000, guid: acab491f71e3b7f4aa06f69046e7322f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GridTexture:
@@ -432,11 +432,11 @@ Material:
     - _FlowMapTilling: 1
     - _FlowSpeed: 0.07
     - _FlowSpeed_LowerLayer: 0
-    - _FlowSpeed_UpperLayer: 0.24
+    - _FlowSpeed_UpperLayer: 0.37
     - _FlowStrength: 0.45
     - _FlowStrength_1: 1
     - _FlowStrength_LowerLayer: 0
-    - _FlowStrength_UpperLayer: -0.1
+    - _FlowStrength_UpperLayer: 0.54
     - _HeightAmplitude: 0
     - _HeightAmplitude2: 0
     - _HeightAmplitude_Main: 0
@@ -472,7 +472,7 @@ Material:
     - _MapSmooth: 0.21
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0.67
+    - _Metallic: 1.01
     - _Metallic2: 1
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
@@ -482,7 +482,7 @@ Material:
     - _NormalMapSpace: 0
     - _NormalOffset: 0.2
     - _NormalScale: 1
-    - _NormalStrength: 5.04
+    - _NormalStrength: 0.81
     - _NormalStrength2: 26.1
     - _NormalStrength_Main: 0.72
     - _ObjectSpaceUVMapping: 0
@@ -511,7 +511,7 @@ Material:
     - _RequireSplitLighting: 0
     - _RevertSmoothness: 0
     - _ShowGrid: 0
-    - _Smoothness: 0.87
+    - _Smoothness: 0.91
     - _Smoothness2: -0.77
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -575,7 +575,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseTiling: {r: 2.12, g: 3.62, b: 0, a: 0}
+    - _BaseTiling: {r: 7.32, g: 7.82, b: 0, a: 0}
     - _BaseTiling2: {r: 10.67, g: 1, b: 0, a: 0}
     - _BaseTilling: {r: 6.11, g: 2.12, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
