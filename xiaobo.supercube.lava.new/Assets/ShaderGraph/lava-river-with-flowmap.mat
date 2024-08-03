@@ -221,7 +221,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 5e071c1633e873c48a3f915ec954f830, type: 3}
+        m_Texture: {fileID: 2800000, guid: 50e1726a38eb9fc43ad0fc3a8c39f612, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture2:
@@ -229,7 +229,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture_Main:
-        m_Texture: {fileID: 2800000, guid: 9468c66557d2c0e4b99a8dd28297eee5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 50e1726a38eb9fc43ad0fc3a8c39f612, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OverlayFlowmap:
