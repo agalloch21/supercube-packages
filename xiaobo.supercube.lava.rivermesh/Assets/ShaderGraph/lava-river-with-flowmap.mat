@@ -81,7 +81,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture:
-        m_Texture: {fileID: 2800000, guid: e251a11f3f83e0045a790b5b663e665b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3506c92e37b2c294692176252f0d3985, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTexture2:
@@ -101,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture:
-        m_Texture: {fileID: 2800000, guid: a7d0dfed11405a0429f9a01357fcb30d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3506c92e37b2c294692176252f0d3985, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTexture2:
@@ -221,7 +221,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 50e1726a38eb9fc43ad0fc3a8c39f612, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0fe6d2a4715e8b14abbc591e3c592d6f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture2:
@@ -407,11 +407,11 @@ Material:
     - _DstBlend2: 0
     - _EdgeNoiseScale: 0.58
     - _EdgeNoiseStrength: 0
-    - _EmissionExposure: 4.02
+    - _EmissionExposure: 9.38
     - _EmissionExposure2: -24.8
     - _EmissionExposure_Main: 1.68
     - _EmissionFactor: 32.29
-    - _EmissionIndensity: 2.64
+    - _EmissionIndensity: -29.8
     - _EmissionIndensity2: 8.49
     - _EmissionIndensity_Main: -1
     - _EmissionNoiseFrequency: 7.42
@@ -432,11 +432,11 @@ Material:
     - _FlowMapTilling: 1
     - _FlowSpeed: 0.07
     - _FlowSpeed_LowerLayer: 0
-    - _FlowSpeed_UpperLayer: 0.37
+    - _FlowSpeed_UpperLayer: 0.15
     - _FlowStrength: 0.45
     - _FlowStrength_1: 1
     - _FlowStrength_LowerLayer: 0
-    - _FlowStrength_UpperLayer: 0.54
+    - _FlowStrength_UpperLayer: 0.81
     - _HeightAmplitude: 0
     - _HeightAmplitude2: 0
     - _HeightAmplitude_Main: 0
@@ -472,7 +472,7 @@ Material:
     - _MapSmooth: 0.21
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 1.01
+    - _Metallic: 1.31
     - _Metallic2: 1
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
@@ -482,7 +482,7 @@ Material:
     - _NormalMapSpace: 0
     - _NormalOffset: 0.2
     - _NormalScale: 1
-    - _NormalStrength: 0.81
+    - _NormalStrength: 287.59
     - _NormalStrength2: 26.1
     - _NormalStrength_Main: 0.72
     - _ObjectSpaceUVMapping: 0
@@ -511,7 +511,7 @@ Material:
     - _RequireSplitLighting: 0
     - _RevertSmoothness: 0
     - _ShowGrid: 0
-    - _Smoothness: 0.91
+    - _Smoothness: 0.23
     - _Smoothness2: -0.77
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -575,7 +575,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseTiling: {r: 7.32, g: 7.82, b: 0, a: 0}
+    - _BaseTiling: {r: 4.03, g: 6.85, b: 0, a: 0}
     - _BaseTiling2: {r: 10.67, g: 1, b: 0, a: 0}
     - _BaseTilling: {r: 6.11, g: 2.12, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -605,7 +605,7 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Tilling: {r: 4.03, g: 1.02, b: 0, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _Tint: {r: 1.2763013, g: 0.9592327, b: 0.9592327, a: 0}
     - _Tint2: {r: 0.8742138, g: 0, b: 0.0074992687, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TwirlSpeed: {r: 0, g: 0, b: 0, a: 0}
