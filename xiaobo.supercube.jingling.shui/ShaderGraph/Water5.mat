@@ -24,8 +24,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water5
-  m_Shader: {fileID: -6465566751694194690, guid: 474c13f262750ec4bbafe9af80e43c3e,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 474c13f262750ec4bbafe9af80e43c3e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -71,7 +70,7 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _Animation: 0.763
+    - _Animation: 0
     - _BackgroundDim: 0.5
     - _BasicDeformFreq: 2.8
     - _BasicDeformOctaves: 1
@@ -169,7 +168,7 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MaskSmoothness: {r: 0.18, g: 1.07, b: 0, a: 0}
-    - _ParentVel: {r: 0, g: 0, b: 2.23, a: 0}
+    - _ParentVel: {r: 1.59, g: 0, b: 0, a: 0}
     - _ParentVelRange: {r: 0, g: 0.52, b: 0, a: 0}
     - _ParentVelSmoothRange: {r: 0, g: 0.47, b: 0, a: 0}
     - _ParentVelToDisplacement: {r: 0, g: 0.92, b: 0, a: 0}

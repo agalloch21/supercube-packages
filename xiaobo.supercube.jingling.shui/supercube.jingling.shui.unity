@@ -413,15 +413,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.272
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.656
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.35
+      value: 15.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3ee6d142ca5e2414cbd3f532aa38e055, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1037,7 +1037,7 @@ Transform:
   m_GameObject: {fileID: 537322211}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.8, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1290,13 +1290,13 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: -0, y: 180, z: -0}
+      - m_Value: {x: -0, y: 0, z: 270}
         m_Name: Parent_angles
         m_Overridden: 1
-      - m_Value: {x: -0.272, y: 1.8492292, z: 7.3495502}
+      - m_Value: {x: 0.26, y: 0.94322926, z: 15.679551}
         m_Name: Parent_position
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1}
+      - m_Value: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
         m_Name: Parent_scale
         m_Overridden: 1
     m_Vector4f:
@@ -1366,7 +1366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &773985976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,7 +1747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963265431}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.142, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1756,7 +1756,7 @@ Transform:
   - {fileID: 1041259397}
   - {fileID: 725829606}
   m_Father: {fileID: 1335046129}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &963265433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1988,21 +1988,21 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: -0, y: 180, z: -0}
+      - m_Value: {x: -0, y: 0, z: 270}
         m_Name: Parent_angles
         m_Overridden: 1
-      - m_Value: {x: -0.272, y: 1.8492292, z: 7.3495502}
+      - m_Value: {x: 0.26, y: 0.94322926, z: 15.679551}
         m_Name: Parent_position
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1}
+      - m_Value: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
         m_Name: Parent_scale
         m_Overridden: 1
       - m_Value: {x: 0, y: 0, z: 0}
         m_Name: ParentVel
         m_Overridden: 1
-      - m_Value: {x: 0, y: 1.8, z: 0}
+      - m_Value: {x: 0, y: 0, z: -20}
         m_Name: LookAtPosition_position
-        m_Overridden: 1
+        m_Overridden: 0
     m_Vector4f:
       m_Array: []
     m_Uint:
@@ -2100,7 +2100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followedGameObject: {fileID: 963265432}
-  facingPosition: {x: 0, y: 1.8, z: 0}
+  facingPosition: {x: 0, y: 0, z: -20}
   smoothDamp: 0.1
 --- !u!23 &1118883319
 MeshRenderer:
@@ -3174,7 +3174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1705096312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3390,13 +3390,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705096311}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalRotation: {x: 0.16934954, y: 0, z: 0, w: 0.98555607}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.5, y: 0, z: 0}
 --- !u!1 &1820109297
 GameObject:
   m_ObjectHideFlags: 0
