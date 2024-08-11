@@ -177,7 +177,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LavaFlowPainterRT:
-        m_Texture: {fileID: 8400000, guid: b5f6ed9f38089ec47b370baaca63e386, type: 2}
+        m_Texture: {fileID: 8400000, guid: 65a720a10495ca147ab49be83d45857c, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LavaMask:

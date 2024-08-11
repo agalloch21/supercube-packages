@@ -33,6 +33,13 @@ public class FlowMapSwitcher : MonoBehaviour
             flowmapIndex = flowmapIndex % flowmapList.Count;
             SwitchFlowmap(flowmapIndex);
         }
+
+        float per = Mathf.Clamp01(age / lifetime);
+        if (per > 0.8f)
+            per = (per - 0.8f) / 0.2f;
+        else
+            per = 0;
+        vfx.SetFloat("FlowmapLerp", per);
     }
 
     float RandomLifetime()
@@ -42,5 +49,6 @@ public class FlowMapSwitcher : MonoBehaviour
     void SwitchFlowmap(int index)
     {
         vfx.SetTexture("FlowMap", flowmapList[index]);
+        vfx.SetTexture("FlowMap2", flowmapList[(index+1) % flowmapList.Count]);
     }
 }
