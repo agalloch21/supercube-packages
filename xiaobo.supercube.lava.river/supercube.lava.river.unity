@@ -12121,7 +12121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587585372}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 527b66987d08f0146862e6b5181c1f12, type: 3}
   m_Name: 
@@ -12132,7 +12132,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 23967f9b8f4802a4b91702319d905bd1, type: 3}
   - {fileID: 2800000, guid: 164b9fe3eea7de64b8bddced23c99b46, type: 3}
   - {fileID: 2800000, guid: 6bbcf86a923dd8843b52b9699308d9a4, type: 3}
-  lifetimeRange: {x: 20, y: 30}
+  lifetimeRange: {x: 30, y: 40}
 --- !u!73398921 &1587585375
 VFXRenderer:
   serializedVersion: 1

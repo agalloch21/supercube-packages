@@ -35,8 +35,8 @@ public class FlowMapSwitcher : MonoBehaviour
         }
 
         float per = Mathf.Clamp01(age / lifetime);
-        if (per > 0.8f)
-            per = (per - 0.8f) / 0.2f;
+        if (per > 0.7f)
+            per = (per - 0.7f) / 0.3f;
         else
             per = 0;
         vfx.SetFloat("FlowmapLerp", per);
