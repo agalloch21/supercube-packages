@@ -366,6 +366,7 @@ Material:
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
+    - _Alpha: 0
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
     - _AlphaCutoffPostpass: 0.5
@@ -453,8 +454,9 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _InteractionNormalStrength: 0.3
-    - _InteractiveDistortion_Thickness: 0.21
+    - _InteractionDistortStrength: 6.54
+    - _InteractionNormalStrength: 0.1
+    - _InteractiveDistortion_Thickness: 0.1
     - _InvTilingScale: 1
     - _Ior: 1.5
     - _IridescenceMask: 1
@@ -601,7 +603,7 @@ Material:
     - _FlowMapTilling_1: {r: 1, g: 1, b: 0, a: 0}
     - _FlowSpeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _FlowSpeed_1: {r: 0, g: 0, b: 0, a: 0}
-    - _InteractiveDistortion_Strength: {r: -0.31, g: -0.3, b: 0, a: 0}
+    - _InteractiveDistortion_Strength: {r: -0.18, g: -0.19, b: 0, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _LerpRange: {r: 0, g: 1, b: 0, a: 0}
