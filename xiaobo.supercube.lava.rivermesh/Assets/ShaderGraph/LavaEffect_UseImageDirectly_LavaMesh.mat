@@ -442,6 +442,8 @@ Material:
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
     - _InteractionNormalStrength: 1.22
+    - _Interaction_RepellingPower: 0.69
+    - _Interaction_RepellingStrength: 0.004
     - _InteractiveDistortion_Thickness: 0.78
     - _InvTilingScale: 1
     - _Ior: 1.5
