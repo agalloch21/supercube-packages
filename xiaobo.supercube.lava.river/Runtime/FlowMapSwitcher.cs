@@ -8,6 +8,9 @@ public class FlowMapSwitcher : MonoBehaviour
     VisualEffect vfx;
 
     [SerializeField]
+    Material maskMat;
+
+    [SerializeField]
     List<Texture2D> flowmapList;
 
     public Vector2 lifetimeRange = new Vector2(3f, 6f);
@@ -40,6 +43,7 @@ public class FlowMapSwitcher : MonoBehaviour
         else
             per = 0;
         vfx.SetFloat("FlowmapLerp", per);
+        maskMat.SetFloat("_LavaRiverFlowMapLerp", per);
     }
 
     float RandomLifetime()
@@ -50,5 +54,8 @@ public class FlowMapSwitcher : MonoBehaviour
     {
         vfx.SetTexture("FlowMap", flowmapList[index]);
         vfx.SetTexture("FlowMap2", flowmapList[(index+1) % flowmapList.Count]);
+
+        maskMat.SetTexture("_LavaRiverFlowMap1", flowmapList[index]);
+        maskMat.SetTexture("_LavaRiverFlowMap2", flowmapList[(index + 1) % flowmapList.Count]);
     }
 }
