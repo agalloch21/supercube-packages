@@ -128,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43042917}
   - component: {fileID: 43042918}
-  m_Layer: 17
+  m_Layer: 16
   m_Name: BlitSequence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,6 +404,37 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &114410725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114410726}
+  m_Layer: 0
+  m_Name: -----------LavaExplosionMask----------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &114410726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114410725}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1638234583}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &127355821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lavaMask: {fileID: 8600000, guid: 23a23009aff2e144bb2cc320c5991d66, type: 2}
-  checkRadius: 1
+  checkRadius: 0.5
 --- !u!4 &726440857
 Transform:
   m_ObjectHideFlags: 0
@@ -1726,7 +1757,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1905905933}
+  m_Father: {fileID: 1638234583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &844082582
 GameObject:
@@ -2130,7 +2161,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1905905933}
+  m_Father: {fileID: 1638234583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &940356115
 PrefabInstance:
@@ -7286,6 +7317,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088824444}
   m_CullTransparentMesh: 1
+--- !u!1 &1101581117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101581118}
+  m_Layer: 0
+  m_Name: -----------LavaFlowPainter----------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101581118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101581117}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1905905933}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331750499
 GameObject:
   m_ObjectHideFlags: 0
@@ -7493,6 +7555,55 @@ Transform:
   - {fileID: 1589857644}
   m_Father: {fileID: 209721110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1488029024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1488029025}
+  - component: {fileID: 1488029026}
+  m_Layer: 16
+  m_Name: BlitSequence_Feedback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1488029025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488029024}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1638234583}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1488029026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488029024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79119c9f566715642b6e46854b39a8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceRT: {fileID: 8600000, guid: 23a23009aff2e144bb2cc320c5991d66, type: 2}
+  destinationRT: {fileID: 8400000, guid: 4be430b8458a51f44b8d29db06222b79, type: 2}
+  backupRT: {fileID: 8400000, guid: d655163c34e4a6246b5e4aa5cc42d553, type: 2}
+  matFeedback: {fileID: 2100000, guid: 77af9a325f4005942b69b0a1e26662d8, type: 2}
+  resetBuffer: 0
 --- !u!1 &1495270236
 GameObject:
   m_ObjectHideFlags: 0
@@ -12397,8 +12508,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1905905933}
+  m_Children:
+  - {fileID: 1735500143}
+  - {fileID: 114410726}
+  - {fileID: 726440857}
+  - {fileID: 1488029025}
+  - {fileID: 885654909}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1735500142
 GameObject:
@@ -12431,7 +12547,7 @@ Transform:
   m_Children:
   - {fileID: 411993150}
   - {fileID: 1875138896}
-  m_Father: {fileID: 1905905933}
+  m_Father: {fileID: 1638234583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875138895
 GameObject:
@@ -12647,15 +12763,12 @@ Transform:
   - {fileID: 1064238666}
   - {fileID: 464021955}
   - {fileID: 543450651731964832}
-  - {fileID: 1959170566}
+  - {fileID: 1101581118}
   - {fileID: 48468562}
   - {fileID: 1587585373}
   - {fileID: 43042917}
+  - {fileID: 1959170566}
   - {fileID: 177722317}
-  - {fileID: 1638234583}
-  - {fileID: 1735500143}
-  - {fileID: 726440857}
-  - {fileID: 885654909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1928532332
@@ -12812,7 +12925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959170566}
   m_Layer: 0
-  m_Name: -----------LavaRiver_ParticleAsFlowmap----------------------
+  m_Name: -----------LavaRiver----------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12995,4 +13108,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 2004001006}
   - {fileID: 1905905933}
+  - {fileID: 1638234583}
   - {fileID: 324668202}
