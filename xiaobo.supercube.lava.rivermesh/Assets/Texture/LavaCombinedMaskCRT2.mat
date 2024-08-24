@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LavaCombinedMaskCRT
-  m_Shader: {fileID: -6465566751694194690, guid: da9e208b33b7af648879957c0928500f, type: 3}
+  m_Name: LavaCombinedMaskCRT2
+  m_Shader: {fileID: -6465566751694194690, guid: b77b84ea6dad41745b476fc321145b8f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -43,8 +43,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: 731d0271a04981341aec2f2318bfefc7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LavaRiverFlowMap1_Mask:
+        m_Texture: {fileID: 2800000, guid: d41a7861f8aa60143a3c6ac62fa38f2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _LavaRiverFlowMap2:
         m_Texture: {fileID: 2800000, guid: e8bdb1473dd9fb943a7fe2fe6f2d2eb0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaRiverFlowMap2_Mask:
+        m_Texture: {fileID: 2800000, guid: c10cd6fd0435c00468a7d96da22cd56b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LavaRiverPainterRT:
@@ -64,7 +72,7 @@ Material:
     - _InteractionRT_Threshold: 0.31
     - _LavaRiverFlowMapLerp: 0
     - _LavaRiverFlowMap_BlurAmount: 31.37
-    - _LavaRiverFlowMap_Threshold: 0.02
+    - _LavaRiverFlowMap_Threshold: 0.43
     - _LavaRiverThreshold: 0.82
     - _Threshold: 0.64
     - _Threshold_Overall: 0.72

@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4325b93a672137448949d35af4e21ac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lavaMask: {fileID: 8600000, guid: 23a23009aff2e144bb2cc320c5991d66, type: 2}
+  lavaMask: {fileID: 8600000, guid: b08e6913209359348a09010d2e21692c, type: 2}
   checkRadius: 0.5
 --- !u!4 &726440857
 Transform:
@@ -2133,7 +2133,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &885654908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6837,7 +6837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1027132245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6950,7 +6950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1029042323
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6965,10 +6965,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1027132248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1200, y: 2000}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029042324
 MonoBehaviour:
@@ -6983,14 +6983,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8600000, guid: 23a23009aff2e144bb2cc320c5991d66, type: 2}
+  m_Texture: {fileID: 8600000, guid: b08e6913209359348a09010d2e21692c, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -12344,12 +12344,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vfx: {fileID: 1587585376}
-  maskMat: {fileID: 2100000, guid: ec0e833ea947f5f41a76c83f4b3cd570, type: 2}
+  maskMat: {fileID: 2100000, guid: 131862ee8ef262d4c8656dbe89418da5, type: 2}
   flowmapList:
   - {fileID: 2800000, guid: 5f10617a328a8764691d07ff8c0905b8, type: 3}
   - {fileID: 2800000, guid: 5316f60a5d9b24147a1d8626f05dd7b0, type: 3}
   - {fileID: 2800000, guid: 731d0271a04981341aec2f2318bfefc7, type: 3}
   - {fileID: 2800000, guid: e8bdb1473dd9fb943a7fe2fe6f2d2eb0, type: 3}
+  flowmapMaskList:
+  - {fileID: 2800000, guid: c10cd6fd0435c00468a7d96da22cd56b, type: 3}
+  - {fileID: 2800000, guid: bff52ccc21378ca4782c7013e1df7ecc, type: 3}
+  - {fileID: 2800000, guid: 4e6d825076e46d444a5d43cb08d7a403, type: 3}
+  - {fileID: 2800000, guid: d41a7861f8aa60143a3c6ac62fa38f2a, type: 3}
   lifetimeRange: {x: 50, y: 90}
 --- !u!73398921 &1587585375
 VFXRenderer:

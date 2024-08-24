@@ -38,15 +38,15 @@ public class LavaMaskDiscriminator : MonoBehaviour
         Vector2 uv = WorldPosToUV(pos);
 
         float max_value = tempTex.GetPixel((int)((uv.x) * tempTex.width), (int)((uv.y) * tempTex.height)).r;
-        for (int i=0; i<offsetList.Length; i++)
-        {
-            uv = WorldPosToUV(pos + new Vector3(offsetList[i].x, 0, offsetList[i].y) * checkRadius);
-            float v = tempTex.GetPixel((int)((uv.x) * lavaMask.width), (int)((uv.y) * lavaMask.height)).r;
-            if (v > max_value)
-                max_value = v;
-            if (max_value == 1)
-                break;
-        }
+        //for (int i=0; i<offsetList.Length; i++)
+        //{
+        //    uv = WorldPosToUV(pos + new Vector3(offsetList[i].x, 0, offsetList[i].y) * checkRadius);
+        //    float v = tempTex.GetPixel((int)((uv.x) * lavaMask.width), (int)((uv.y) * lavaMask.height)).r;
+        //    if (v > max_value)
+        //        max_value = v;
+        //    if (max_value == 1)
+        //        break;
+        //}
 
         return max_value;
     }
